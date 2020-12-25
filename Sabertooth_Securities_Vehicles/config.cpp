@@ -1,13 +1,13 @@
 class cfgPatches
 {
-	class Sabertooth_Securities
+	class Sabertooth_Securities_Vehicles
 	{
 		author="Thomas & Krevan";
 		name="STS Mod";
-		fileName="Sabertooth_Securities.pbo";
+		fileName="Sabertooth_Securities_Vehicles.pbo";
 		units[]=
 		{
-
+			"Sabertooth_M12_APC"
 		};
 		magazines[]={};
 		ammo[]={};
@@ -22,7 +22,6 @@ class cfgPatches
 			"V_SO_Magazines",
 			"V_SO_Weapons",
 			"A3_Weapons_F",
-			"A3_Weapons_F_Launchers_RPG32",
 			"A3_Sounds_F",
 			"A3_Sounds_F_Arsenal",
 			"A3_Weapons_F_EPA",
@@ -58,5 +57,27 @@ class CfgEditorSubcategories
 };
 class CfgVehicles
 {
-  
+  class VES_M12_APC;
+
+	class Sabertooth_M12_APC: VES_M12_APC
+	{
+		dlc="Sabertooth Securities";
+		author="Vespade & Thomas";
+		scope=2;
+		scopeCurator=2;
+		forceInGarage=1;
+		displayName="[Sabertooth] M12 APC Warthog";
+		editorCategory="Sabertooth";
+		editorSubcategory="Sabertooth_Vehicles";
+		crew="VES_Rifleman_MA5B_MAR";
+		ace_refuel_fuelCapacity=150;
+		ace_refuel_hooks[]=
+		{
+			{-1.35,-0.60000002,-1.1}
+		};
+		enableRadio=1;
+		tf_hasLRradio=1;
+		tf_isolatedAmount=0.40000001;
+		tf_range=10500;
+	};
 };
