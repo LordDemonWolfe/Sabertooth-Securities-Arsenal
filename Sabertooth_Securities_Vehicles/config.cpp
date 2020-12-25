@@ -14,13 +14,9 @@ class cfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"3DEN",
 			"V_FZ_Armor",
 			"OPTRE_FC_Core",
 			"OPTRE_Core",
-			"V_SO_Core",
-			"V_SO_Magazines",
-			"V_SO_Weapons",
 			"A3_Weapons_F",
 			"A3_Sounds_F",
 			"A3_Sounds_F_Arsenal",
@@ -28,15 +24,10 @@ class cfgPatches
 			"A3Data",
 			"A3_Data_F",
 			"OPTRE_Weapons",
-			"OPTRE_Weapons_Shotgun",
-			"OPTRE_Weapons_Rockets",
-			"OPTRE_Weapons_Charges",
-			"OPTRE_Weapons_AR",
 			"A3_Data_F_Mark",
-			"OPTRE_Weapons_SMG",
-			"OPTRE_Weapons_Pistol",
-			"OPAEX_Aircore",
-			"OPAEX_Core"
+			"V_SO_Core",
+			"OPAEX_Core",
+			"OPAEX_AirCore"
 		};
 		weapons[]={};
 	};
@@ -58,6 +49,19 @@ class CfgEditorSubcategories
 class CfgVehicles
 {
   class VES_M12_APC;
+	class B_T_AFV_Wheeled_01_up_cannon_F;
+
+	class Sabertooth_Cobra: B_T_AFV_Wheeled_01_up_cannon_F
+	{
+		dlc="Sabertooth Securities";
+		author="A3 & Thomas";
+		scope=2;
+		scopeCurator=2;
+		forceInGarage=1;
+		displayName="[Sabertooth] Cobra";
+		editorCategory="Sabertooth";
+		editorSubcategory="Sabertooth_Vehicles";
+	};
 
 	class Sabertooth_M12_APC: VES_M12_APC
 	{
