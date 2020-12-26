@@ -7,7 +7,8 @@ class cfgPatches
 		fileName="Sabertooth_Securities_Vehicles.pbo";
 		units[]=
 		{
-			"Sabertooth_M12_APC"
+			"Sabertooth_M12_APC",
+			"Sabertooth_Cobra"
 		};
 		magazines[]={};
 		ammo[]={};
@@ -17,17 +18,15 @@ class cfgPatches
 			"V_FZ_Armor",
 			"OPTRE_FC_Core",
 			"OPTRE_Core",
+			"V_SO_Core",
 			"A3_Weapons_F",
 			"A3_Sounds_F",
 			"A3_Sounds_F_Arsenal",
 			"A3_Weapons_F_EPA",
 			"A3Data",
 			"A3_Data_F",
-			"OPTRE_Weapons",
 			"A3_Data_F_Mark",
-			"V_SO_Core",
-			"OPAEX_Core",
-			"OPAEX_AirCore"
+			"OPAEX_Core"
 		};
 		weapons[]={};
 	};
