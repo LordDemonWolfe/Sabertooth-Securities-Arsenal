@@ -609,7 +609,7 @@ class cfgWeapons
 		displayname="R/B5 Helmet (SaberTooth) [Depolariazed]";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa";
+			"STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
 	};
