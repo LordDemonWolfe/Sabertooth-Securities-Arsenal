@@ -76,8 +76,8 @@ class cfgMagazines
 	{
 		dlc="Sabertooth Securities";
 		scope=2;
-		displayName="6Rnd ALIM Gauss Slugs";
-		displayNameShort="25x130mm Slug";
+		displayName="25Rnd ALIM Gauss Slugs";
+		displayNameShort="105mm Slug";
 		ammo="OPTRE_25x130mm_Slug";
 		initSpeed=13680;
 		count=25;
@@ -86,7 +86,7 @@ class cfgMagazines
 };
 class CfgVehicles
 {
-  class VES_M12_APC;
+  class VES_M12;
 	class B_T_AFV_Wheeled_01_up_cannon_F;
 	class Turrets;
 	class MainTurret;
@@ -116,14 +116,14 @@ class CfgVehicles
 			};
 		};
 	};
-	class Sabertooth_M12_APC: VES_M12_APC
+	class Sabertooth_M12_FAV: VES_M12
 	{
 		dlc="Sabertooth Securities";
 		author="Vespade & Thomas";
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
-		displayName="[Sabertooth] M12 APC Warthog";
+		displayName="[Sabertooth] M12 FAV Warthog";
 		editorCategory="Sabertooth";
 		editorSubcategory="Sabertooth_Vehicles";
 		crew="VES_Rifleman_MA5B_MAR";
@@ -136,5 +136,9 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		hiddenSelectionsTextures[]=
+		{
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa"
+		};
 	};
 };
