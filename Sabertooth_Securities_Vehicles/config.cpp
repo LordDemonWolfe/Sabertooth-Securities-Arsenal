@@ -45,10 +45,51 @@ class CfgEditorSubcategories
 		displayName="Vehicles";
 	};
 };
+class cfgWeapons
+{
+	class cannon_120mm;
+
+	class STS_M98: cannon_120mm
+	{
+		displayName="M98 105mm Light Railgun";
+		shotFromTurret=1;
+		cursor="EmptyCursor";
+		cursorAim="cannon";
+		nameSound="cannon";
+		muzzlePos="Cannon_muzzleflash";
+		muzzleEnd="Cannon_barrel_end";
+		selectionFireAnim="Cannon_muzzleflash";
+		autoFire=0;
+		magazines[]=
+		{
+			"STS_25Rnd_ALIM_Gauss_Slugs"
+		};
+		reloadTime=12;
+		magazinereloadTime=9;
+	};
+};
+class cfgMagazines
+{
+	class 30Rnd_120mm_APFSDS_shells;
+
+	class STS_25Rnd_ALIM_Gauss_Slugs: 30Rnd_120mm_APFSDS_shells
+	{
+		dlc="Sabertooth Securities";
+		scope=2;
+		displayName="6Rnd ALIM Gauss Slugs";
+		displayNameShort="25x130mm Slug";
+		ammo="OPTRE_25x130mm_Slug";
+		initSpeed=13680;
+		count=25;
+		muzzleImpulseFactor[]={0,0};
+	};
+};
 class CfgVehicles
 {
   class VES_M12_APC;
 	class B_T_AFV_Wheeled_01_up_cannon_F;
+	class Turrets;
+	class MainTurret;
 
 	class Sabertooth_Cobra: B_T_AFV_Wheeled_01_up_cannon_F
 	{
@@ -60,8 +101,21 @@ class CfgVehicles
 		displayName="[Sabertooth] Cobra";
 		editorCategory="Sabertooth";
 		editorSubcategory="Sabertooth_Vehicles";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"STS_M98"
+				};
+				magazines[]=
+				{
+					"STS_25Rnd_ALIM_Gauss_Slugs"
+				};
+			};
+		};
 	};
-
 	class Sabertooth_M12_APC: VES_M12_APC
 	{
 		dlc="Sabertooth Securities";
