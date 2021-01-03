@@ -13,6 +13,7 @@ class cfgPatches
 			"Sabertooth_M813_TT",
 			"Sabertooth_M12A1",
 			"Sabertooth_M12G1",
+			"Sabertooth_M914",
 			"Sabertooth_Cobra"
 		};
 		magazines[]=
@@ -125,10 +126,38 @@ class CfgVehicles
 	class VES_M813_TT;
 	class VES_M12G1_LRV;
 	class VES_M12A1_LRV;
+	class OPTRE_M914_RV;
 	class B_T_AFV_Wheeled_01_cannon_F;
 	class Turrets;
 	class MainTurret;
 	class CommanderOptics;
+
+	class Sabertooth_M914: OPTRE_M914_RV
+	{
+		dlc="Sabertooth Securities";
+		author="Vespade & Thomas";
+		scope=2;
+		scopeCurator=2;
+		forceInGarage=1;
+		displayName="[Sabertooth] M914 Recovery Warthog";
+		editorCategory="Sabertooth";
+		editorSubcategory="Sabertooth_Vehicles";
+		crew="VES_Rifleman_MA5B_MAR";
+		ace_refuel_fuelCapacity=150;
+		ace_refuel_hooks[]=
+		{
+			{-1.35,-0.60000002,-1.1}
+		};
+		enableRadio=1;
+		tf_hasLRradio=1;
+		tf_isolatedAmount=0.40000001;
+		tf_range=10500;
+		hiddenSelectionsTextures[]=
+		{
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+		};
+	};
 
 	class Sabertooth_M12A1: VES_M12A1_LRV
 	{
@@ -272,6 +301,7 @@ class CfgVehicles
 		dlc="Sabertooth Securities";
 		displayName="[Sabertooth] Cobra";
 		editorCategory="Sabertooth";
+		editorSubcategory="Sabertooth_Vehicles";
 		crew="VES_Rifleman_Crew_WDL";
 		scope=2;
 		scopeCurator=2;
