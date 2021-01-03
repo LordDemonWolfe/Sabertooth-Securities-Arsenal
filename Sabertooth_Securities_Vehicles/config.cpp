@@ -14,7 +14,9 @@ class cfgPatches
 			"Sabertooth_M12A1",
 			"Sabertooth_M12G1",
 			"Sabertooth_M914",
-			"Sabertooth_Cobra"
+			"Sabertooth_Cobra",
+			"Sabertooth_Falcon",
+			"Sabertooth_CAS"
 		};
 		magazines[]=
 		{
@@ -132,6 +134,100 @@ class CfgVehicles
 	class Turrets;
 	class MainTurret;
 	class CommanderOptics;
+	class VES_UH144_A;
+	class VES_VAF19;
+
+	class Sabertooth_CAS: VES_VAF19
+	{
+		dlc="Sabertooth Securities";
+		author="Vespade & Thomas";
+		scope=2;
+		scopeCurator=2;
+		forceInGarage=1;
+		displayName="[Sabertooth] F/A-74 LongFang";
+		editorCategory="Sabertooth";
+		editorSubcategory="Sabertooth_Vehicles";
+		crew="OPTRE_UNSC_Airforce_Soldier_Airman";
+		tf_hasLRradio=1;
+		tf_isolatedAmount=0.40000001;
+		tf_range=12000;
+		maxSpeed=1500;
+		landingSpeed=290;
+		stallSpeed=180;
+		acceleration=300;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\LongFang\STS_CAS_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\LongFang\STS_CAS_co2.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co",
+					"",
+					"",
+					""
+				};
+			};
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"Sabertooth_Securities_Vehicles\data\Vehicles\LongFang\STS_CAS_co.paa",
+			"Sabertooth_Securities_Vehicles\data\Vehicles\LongFang\STS_CAS_co2.paa",
+			"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca",
+			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co",
+			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co",
+			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co",
+			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co",
+			"",
+			"",
+			""
+		};
+	};
+
+	class Sabertooth_Falcon: VES_UH144_A
+	{
+		dlc="Sabertooth Securities";
+		author="Vespade & Thomas";
+		scope=2;
+		scopeCurator=2;
+		forceInGarage=1;
+		displayName="[Sabertooth] UH-144 Falcon (Armed)";
+		editorCategory="Sabertooth";
+		editorSubcategory="Sabertooth_Vehicles";
+		crew="OPTRE_UNSC_Airforce_Soldier_Airman";
+		tf_hasLRradio=1;
+		tf_isolatedAmount=0.40000001;
+		tf_range=12000;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co2.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co3.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co4.paa"
+				};
+			};
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co.paa",
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co2.paa",
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co3.paa",
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Falcon\STS_Falcon_co4.paa"
+		};
+	};
 
 	class Sabertooth_M914: OPTRE_M914_RV
 	{
@@ -153,6 +249,19 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
@@ -180,6 +289,19 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
@@ -207,6 +329,19 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
@@ -235,6 +370,19 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
@@ -262,6 +410,19 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
@@ -289,6 +450,19 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
@@ -425,6 +599,18 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		tf_isolatedAmount=0.40000001;
 		tf_range=10500;
+		class TextureSources
+		{
+			class tex_nml
+			{
+				displayName="Sabertooth";
+				author="Thomas";
+				textures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa"
+				};
+			};
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa"
