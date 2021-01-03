@@ -125,7 +125,7 @@ class CfgVehicles
 	class VES_M813_TT;
 	class VES_M12G1_LRV;
 	class VES_M12A1_LRV;
-	class B_T_AFV_Wheeled_01_up_cannon_F;
+	class B_T_AFV_Wheeled_01_cannon_F;
 	class Turrets;
 	class MainTurret;
 	class CommanderOptics;
@@ -266,16 +266,17 @@ class CfgVehicles
 		};
 	};
 
-	class Sabertooth_Cobra: B_T_AFV_Wheeled_01_up_cannon_F
+	class Sabertooth_Cobra: B_T_AFV_Wheeled_01_cannon_F
 	{
+		author="Thomas";
 		dlc="Sabertooth Securities";
-		author="A3 & Thomas";
-		scope=2;
-		scopeCurator=2;
-		forceInGarage=1;
 		displayName="[Sabertooth] Cobra";
 		editorCategory="Sabertooth";
-		editorSubcategory="Sabertooth_Vehicles";
+		crew="VES_Rifleman_Crew_WDL";
+		scope=2;
+		scopeCurator=2;
+		scopeArsenal=2;
+		forceInGarage=1;
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -286,13 +287,33 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co.paa",
-			"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co2.paa"
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_CO.paa",
+			"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_CO2.paa",
+			"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+			"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+			"a3\Armor_F\Data\cage_olive_CO.paa"
+		};
+		weapons[]=
+		{
+			"TruckHorn3"
 		};
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
 			{
+				class CommanderOptics: CommanderOptics
+				{
+					weapons[]=
+					{
+						"SmokeLauncher",
+						"Laserdesignator_vehicle"
+					};
+					magazines[]=
+					{
+						"SmokeLauncherMag",
+						"Laserbatteries"
+					};
+				};
 				weapons[]=
 				{
 					"STS_M98",
