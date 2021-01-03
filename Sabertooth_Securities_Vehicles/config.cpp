@@ -36,7 +36,8 @@ class cfgPatches
 			"A3Data",
 			"A3_Data_F",
 			"A3_Data_F_Mark",
-			"OPAEX_Core"
+			"OPAEX_Core",
+			"Echo_Company_Armory"
 		};
 		weapons[]={};
 	};
@@ -317,8 +318,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_CO.paa",
-			"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_CO2.paa",
+			"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co.paa",
+			"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co2.paa",
 			"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
 			"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 			"a3\Armor_F\Data\cage_olive_CO.paa"
@@ -358,6 +359,48 @@ class CfgVehicles
 					"OPTRE_200Rnd_95x40_Box_Tracer",
 					"OPTRE_200Rnd_95x40_Box_Tracer",
 					"OPTRE_200Rnd_95x40_Box_Tracer"
+				};
+			};
+		};
+		class TextureSources
+		{
+			class Army
+			{
+				displayName="Woodland";
+				author="Barais, OPCAN & A3";
+				textures[]=
+				{
+					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co.paa",
+					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co2.paa",
+					"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+					"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+					"a3\Armor_F\Data\cage_olive_CO.paa"
+				};
+			};
+			class tex_snow
+			{
+				displayName="Snow";
+				author="Barais, OPCAN & A3";
+				textures[]=
+				{
+					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_SNW_co.paa",
+					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_SNW_co2.paa",
+					"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+					"Echo_Company_Armory\data\Vehicles\Misc\camonet_NATO_Snow_CO.paa",
+					"Echo_Company_Armory\data\Vehicles\Misc\cage_snow_CO.paa"
+				};
+			};
+			class tex_des
+			{
+				displayName="Desert";
+				author="Barais, OPCAN & A3";
+				textures[]=
+				{
+					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_DES_co.paa",
+					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_DES_co2.paa",
+					"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa",
+					"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"a3\Armor_F\Data\cage_sand_CO.paa"
 				};
 			};
 		};
