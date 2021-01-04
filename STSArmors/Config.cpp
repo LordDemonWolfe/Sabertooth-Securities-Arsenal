@@ -3,10 +3,10 @@ class CfgPatches
     class STSArmors
     {
          units[]=
-        {       
+        {
         };
         weapons[]=
-        {   
+        {
         };
         requiredVersion=0.1;
         requiredAddons[]=
@@ -47,7 +47,7 @@ class cfgWeapons
 		};
 	};
     /** Helmet Section */
-	
+
     class OPTRE_UNSC_CH252D_Helmet;
     class OPTRE_UNSC_CH252D_Helmet_dp;
 	class HeadgearItem;
@@ -178,7 +178,7 @@ class cfgWeapons
 				"H_VacCollar",
 				"H_Ghillie"
 		};
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
@@ -188,7 +188,7 @@ class cfgWeapons
 			"OPTRE_UNSC_Units\Army\data\helmet.rvmat",
 			"OPTRE_UNSC_Units\Army\data\helmet_visor.rvmat"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
 			uniformModel="OPTRE_UNSC_Units\Army\helmet";
@@ -226,7 +226,7 @@ class cfgWeapons
 				"H_VacCollar",
 				"H_Ghillie"
 		};
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
@@ -254,7 +254,7 @@ class cfgWeapons
 	};
 	class STS_R_ECH252OPN: STS_ECH252_Base
 	{
-		
+
 		displayName="[SaberTooth] CH252 BLK Vac (Open)";
 		hiddenSelectionsTextures[]=
 		{
@@ -278,19 +278,19 @@ class cfgWeapons
 				""
 			};
 		};
-		
+
 	};
 	class STS_R_ECH252OPN_dp: STS_R_ECH252_dp
 	{
 		displayName="[SaberTooth] CH252 BLK Vac (Open)";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 		};
 
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			};
@@ -317,7 +317,7 @@ class cfgWeapons
 	class STS_R_ECH252GL_dp: STS_R_ECH252_dp
 	{
 		displayName="[SaberTooth] CH252 BLK Vac (Gold)";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
@@ -325,7 +325,7 @@ class cfgWeapons
 
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
@@ -385,7 +385,7 @@ class cfgWeapons
 	class STS_R_ECH252B: STS_R_ECH252
 	{
 		displayName="[SaberTooth] CH252 BLK Vac (Red)";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
@@ -393,12 +393,12 @@ class cfgWeapons
 
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
 			};
-		};	
+		};
 	};
 	class STS_R_ECH252B_dp: STS_R_ECH252_dp
 	{
@@ -411,7 +411,7 @@ class cfgWeapons
 
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
@@ -427,7 +427,7 @@ class cfgWeapons
         scope = 2;
 		scopeArsenal =2;
 	    displayName = "[SaberTooth] CH252 BLK Collar";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO.paa"
 		};
@@ -435,15 +435,15 @@ class cfgWeapons
 	class STS_CORP_ECH252: STS_R_ECH252
 	{
    	   	displayName = "[SaberTooth] CH252 BLK Corpsman Vac";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
@@ -452,7 +452,7 @@ class cfgWeapons
 	};
 	class STS_CORP_ECH252OPN: STS_ECH252_Base
 	{
-		
+
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Open)";
 		hiddenSelectionsTextures[]=
 		{
@@ -476,19 +476,19 @@ class cfgWeapons
 				""
 			};
 		};
-		
+
 	};
 	class STS_CORP_ECH252OPN_dp: STS_R_ECH252_dp
 	{
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Open)";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 		};
 
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			};
@@ -502,7 +502,7 @@ class cfgWeapons
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
@@ -520,7 +520,7 @@ class cfgWeapons
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
@@ -533,15 +533,15 @@ class cfgWeapons
 	class STS_CORP_ECH252_dp: STS_R_ECH252_Base_dp
 	{
    	   	displayName = "[SaberTooth] CH252 WLD Corpsman Vac";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelectionsTextures[] = 
+			hiddenSelectionsTextures[] =
 			{
 				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
@@ -556,7 +556,7 @@ class cfgWeapons
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
@@ -574,7 +574,7 @@ class cfgWeapons
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
-		
+
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
@@ -587,7 +587,7 @@ class cfgWeapons
 	class STS_CORP_CH252: STS_R_CH252
 	{
 	    displayName = "[SaberTooth] CH252 WLD Corpsman Collar";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa"
 		};
@@ -5302,7 +5302,7 @@ class cfgWeapons
 			"APO_Sniper",
 			"CustomKit_Scorch"
 		};
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
 			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
@@ -5315,7 +5315,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -5431,7 +5431,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -5543,7 +5543,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -5655,7 +5655,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -5767,7 +5767,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -5879,7 +5879,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -5991,7 +5991,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6103,7 +6103,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6215,7 +6215,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6327,7 +6327,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6439,7 +6439,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6551,7 +6551,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6663,7 +6663,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6775,7 +6775,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6887,7 +6887,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -6999,7 +6999,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7111,7 +7111,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7223,7 +7223,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7335,7 +7335,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7447,7 +7447,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7559,7 +7559,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7671,7 +7671,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7783,7 +7783,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -7895,7 +7895,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8007,7 +8007,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8119,7 +8119,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8231,7 +8231,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8343,7 +8343,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8455,7 +8455,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8567,7 +8567,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8679,7 +8679,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8791,7 +8791,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -8903,7 +8903,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9015,7 +9015,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9127,7 +9127,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9239,7 +9239,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9351,7 +9351,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9463,7 +9463,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9575,7 +9575,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9687,7 +9687,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9799,7 +9799,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -9911,7 +9911,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10023,7 +10023,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10135,7 +10135,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10247,7 +10247,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10359,7 +10359,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10471,7 +10471,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10583,7 +10583,7 @@ class cfgWeapons
         {
 			vestType="Rebreather";
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10694,7 +10694,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10805,7 +10805,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -10916,7 +10916,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11027,7 +11027,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11138,7 +11138,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11249,7 +11249,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11360,7 +11360,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11471,7 +11471,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11582,7 +11582,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11693,7 +11693,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11797,14 +11797,14 @@ class cfgWeapons
 			};
 		};
 	};
-	
+
 	class STS_BLK_Medium_10: STS_BLK_Medium_1
 	{
 		displayName="[SaberTooth] M52A WDL 2 Medium(Can,Knife,Pouch)";
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -11915,7 +11915,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12026,7 +12026,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12137,7 +12137,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12248,7 +12248,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12359,7 +12359,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12470,7 +12470,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12581,7 +12581,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12692,7 +12692,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12803,7 +12803,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -12914,7 +12914,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13025,7 +13025,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13136,7 +13136,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13247,7 +13247,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13358,7 +13358,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13469,7 +13469,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13580,7 +13580,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13691,7 +13691,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13802,7 +13802,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -13913,7 +13913,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14024,7 +14024,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14135,7 +14135,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14246,7 +14246,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14357,7 +14357,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14468,7 +14468,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14579,7 +14579,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14690,7 +14690,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14801,7 +14801,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -14912,7 +14912,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15023,7 +15023,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15134,7 +15134,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15245,7 +15245,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15356,7 +15356,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15467,7 +15467,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15578,7 +15578,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15689,7 +15689,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15800,7 +15800,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -15911,7 +15911,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16022,7 +16022,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16133,7 +16133,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16244,7 +16244,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16355,7 +16355,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16466,7 +16466,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16577,7 +16577,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16688,7 +16688,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16799,7 +16799,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -16910,7 +16910,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17021,7 +17021,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17132,7 +17132,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17243,7 +17243,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17354,7 +17354,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17465,7 +17465,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17576,7 +17576,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17687,7 +17687,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17798,7 +17798,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -17909,7 +17909,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18020,7 +18020,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18131,7 +18131,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18242,7 +18242,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18353,7 +18353,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18464,7 +18464,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18575,7 +18575,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18686,7 +18686,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18797,7 +18797,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -18908,7 +18908,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19019,7 +19019,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19130,7 +19130,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19241,7 +19241,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19352,7 +19352,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19463,7 +19463,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19574,7 +19574,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19685,7 +19685,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19796,7 +19796,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -19907,7 +19907,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20018,7 +20018,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20126,7 +20126,7 @@ class cfgWeapons
     class STS_BLK_Corpsman_Light_1: STS_BLK_Basic_1
 	{
 		displayName="[SaberTooth] M52A WDL Corpsman 1 Light";
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
 			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_M_BLK_CO.paa",
@@ -20137,7 +20137,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20248,7 +20248,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20359,7 +20359,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20470,7 +20470,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20581,7 +20581,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20692,7 +20692,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20803,7 +20803,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -20914,7 +20914,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21025,7 +21025,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21136,7 +21136,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21247,7 +21247,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21358,7 +21358,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21469,7 +21469,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21580,7 +21580,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21691,7 +21691,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21802,7 +21802,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -21913,7 +21913,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22024,7 +22024,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22135,7 +22135,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22246,7 +22246,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22357,7 +22357,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22468,7 +22468,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22579,7 +22579,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22690,7 +22690,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22801,7 +22801,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -22912,7 +22912,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23023,7 +23023,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23134,7 +23134,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23245,7 +23245,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23356,7 +23356,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23467,7 +23467,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23578,7 +23578,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23689,7 +23689,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23800,7 +23800,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -23911,7 +23911,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
@@ -24022,7 +24022,7 @@ class cfgWeapons
 		class ItemInfo: VestItem
         {
 			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo",
 				"camo2",
