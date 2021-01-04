@@ -16,7 +16,8 @@ class cfgPatches
 			"Sabertooth_M914",
 			"Sabertooth_Cobra",
 			"Sabertooth_Falcon",
-			"Sabertooth_CAS"
+			"Sabertooth_CAS",
+			"Sabertooth_Badger"
 		};
 		magazines[]=
 		{
