@@ -594,7 +594,7 @@ class cfgWeapons
 	};
 
 	/** RECON Helmet **/
-
+//Keep the ; on line 612. Apparently, the code won't work without it?
 	class STS_Recon_STS: OPTRE_UNSC_Recon_Helmet
 	{
 		displayname="R/B5 Helmet (SaberTooth)";
