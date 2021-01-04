@@ -43,6 +43,22 @@ class CfgEditorSubcategories
 		displayName="Men";
 	};
 };
+class CfgWeapons
+{
+	class OPTRE_MA5C;
+
+	class STS_MA5C: OPTRE_MA5C
+	{
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="OPTRE_MA5Suppressor";
+			};
+		};
+	};
+};
 class CfgVehicles
 {
   class B_Soldier_base_F;
@@ -63,15 +79,15 @@ class CfgVehicles
 		};
 		weapons[]=
 		{
-      "OPTRE_MA5C",
-			"OPTRE_M6C",
+      "STS_MA5C",
+			"OPTRE_M6C_SF",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"OPTRE_MA5C",
-			"OPTRE_M6C",
+			"STS_MA5C",
+			"OPTRE_M6C_SF",
 			"Throw",
 			"Put"
 		};
@@ -88,8 +104,8 @@ class CfgVehicles
 			"OPTRE_12Rnd_127x40_Mag",
 			"OPTRE_12Rnd_127x40_Mag",
 			"OPTRE_12Rnd_127x40_Mag",
-			"SmokeShellYellow",
-			"SmokeShellGreen",
+			"SmokeShell",
+			"SmokeShell",
 			"OPTRE_M9_Frag",
 			"OPTRE_M9_Frag"
 		};
@@ -106,28 +122,36 @@ class CfgVehicles
 			"OPTRE_12Rnd_127x40_Mag",
 			"OPTRE_12Rnd_127x40_Mag",
 			"OPTRE_12Rnd_127x40_Mag",
-			"SmokeShellYellow",
-			"SmokeShellGreen",
+			"SmokeShell",
+			"SmokeShell",
 			"OPTRE_M9_Frag",
 			"OPTRE_M9_Frag"
 		};
 		linkedItems[]=
 		{
+			"STS_R_CH252",
       "STS_BLK_Heavy_1",
+			"OPTRE_HUD_w_Glasses",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"OPTRE_NVG"
+			"ItemGPS",
+			"OPTRE_NVG",
+			"FirstAidKit"
 		};
 		respawnLinkedItems[]=
 		{
+			"STS_R_CH252",
 			"STS_BLK_Heavy_1",
+			"OPTRE_HUD_w_Glasses",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"OPTRE_NVG"
+			"ItemGPS",
+			"OPTRE_NVG",
+			"FirstAidKit"
 		};
   };
 };
