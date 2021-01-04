@@ -66,7 +66,7 @@ class cfgWeapons
 		displayName="[sabertooth] CH252D";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO",
 			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 		CBRN_protection=1;
@@ -117,7 +117,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO"
 		};
 		CBRN_protection=1;
 		class ItemInfo: HeadgearItem
@@ -180,8 +180,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -194,8 +194,8 @@ class cfgWeapons
 			uniformModel="OPTRE_UNSC_Units\Army\helmet";
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 
 			};
 			hiddenSelectionsMaterials[]=
@@ -228,8 +228,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -242,8 +242,8 @@ class cfgWeapons
 			uniformModel="OPTRE_UNSC_Units\Army\helmet";
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 			};
 			hiddenSelectionsMaterials[]=
 			{
@@ -258,7 +258,7 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 BLK Vac (Open)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -270,7 +270,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			};
 			hiddenSelectionsMaterials[]=
 			{
@@ -285,14 +285,14 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 BLK Vac (Open)";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
 			};
 		};
 	};
@@ -301,16 +301,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 BLK Vac (Gold)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
 			};
 		};
 	};
@@ -319,16 +319,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 BLK Vac (Gold)";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 			};
 		};
 	};
@@ -338,8 +338,8 @@ class cfgWeapons
 		model="\OPTRE_UNSC_Units\Army\aa_helmet.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -352,8 +352,8 @@ class cfgWeapons
 			uniformModel="\OPTRE_UNSC_Units\Army\aa_helmet.p3d";
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
 			};
 		};
 	};
@@ -363,8 +363,8 @@ class cfgWeapons
 		model="\OPTRE_UNSC_Units\Army\aa_helmet_dp.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -377,8 +377,8 @@ class cfgWeapons
 			uniformModel="\OPTRE_UNSC_Units\Army\aa_helmet_dp.p3d";
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
 			};
 		};
 	};
@@ -387,16 +387,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 BLK Vac (Red)";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
 			};
 		};
 	};
@@ -405,16 +405,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 BLK Vac (Blue)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 			};
 		};
 	};
@@ -429,7 +429,7 @@ class cfgWeapons
 	    displayName = "[SaberTooth] CH252 BLK Collar";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO.paa"
 		};
 	};
 	class STS_CORP_ECH252: STS_R_ECH252
@@ -437,16 +437,16 @@ class cfgWeapons
    	   	displayName = "[SaberTooth] CH252 BLK Corpsman Vac";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 			};
 		};
 	};
@@ -456,7 +456,7 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Open)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -468,7 +468,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			};
 			hiddenSelectionsMaterials[]=
 			{
@@ -483,14 +483,14 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Open)";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
 			};
 		};
 	};
@@ -499,16 +499,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Gold)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
 			};
 		};
 	};
@@ -517,16 +517,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Blue)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
 			};
 		};
 	};
@@ -535,16 +535,16 @@ class cfgWeapons
    	   	displayName = "[SaberTooth] CH252 WLD Corpsman Vac";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] =
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 			};
 		};
 	};
@@ -553,16 +553,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Gold)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 			};
 		};
 	};
@@ -571,16 +571,16 @@ class cfgWeapons
 		displayName="[SaberTooth] CH252 WLD Corpsman Vac (Blue)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-				"STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+				"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
 			};
 		};
 	};
@@ -589,7 +589,7 @@ class cfgWeapons
 	    displayName = "[SaberTooth] CH252 WLD Corpsman Collar";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa"
 		};
 	};
 
@@ -600,7 +600,7 @@ class cfgWeapons
 		displayname="R/B5 Helmet (SaberTooth)";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
 			"optre_unsc_units\army\data\recon_visor_co.paa"
 		};
 	};
@@ -609,7 +609,7 @@ class cfgWeapons
 		displayname="R/B5 Helmet (SaberTooth) [Depolariazed]";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa";
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
 	};
@@ -629,11 +629,11 @@ class cfgWeapons
 
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52D_BLK_CO"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52D_BLK_CO"
 		};
 
 		class ItemInfo: ItemInfo
@@ -5304,9 +5304,9 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
 			"optre_unsc_units\army\data\ghillie_desert_co.paa",
 			"optre_unsc_units\army\data\odst_armor_co.paa"
 		};
@@ -20128,9 +20128,9 @@ class cfgWeapons
 		displayName="[SaberTooth] M52A WDL Corpsman 1 Light";
 		hiddenSelectionsTextures[] =
 		{
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_M_BLK_CO.paa",
-			"STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_M_BLK_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
 			"optre_unsc_units\army\data\ghillie_desert_co.paa",
 			"optre_unsc_units\army\data\odst_armor_co.paa"
 		};
@@ -24135,8 +24135,8 @@ class cfgvehicles
 		uniformClass="STS_BLK_SaberTooth_Uniform";
 		hiddenSelectionsTextures[]=
 		{
-			"STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa",
-			"STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa"
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa",
+			"Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa"
 		};
 	};
 	class STS_BLK_SaberTooth_SlimLeg: STS_BLK_SaberTooth_soldier
