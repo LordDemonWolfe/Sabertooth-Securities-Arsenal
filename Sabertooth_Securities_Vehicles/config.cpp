@@ -14,10 +14,12 @@ class cfgPatches
 			"Sabertooth_M12A1",
 			"Sabertooth_M12G1",
 			"Sabertooth_M914",
+			"Sabertooth_M12R",
 			"Sabertooth_Cobra",
 			"Sabertooth_Falcon",
 			"Sabertooth_CAS",
-			"Sabertooth_Badger"
+			"Sabertooth_Badger",
+			"Sabertooth_M808B2"
 		};
 		magazines[]=
 		{
@@ -194,13 +196,332 @@ class cfgPatches
 			class VES_M12G1_LRV;
 			class VES_M12A1_LRV;
 			class OPTRE_M914_RV;
+			class OPTRE_M12R_AA;
 			class B_T_AFV_Wheeled_01_up_cannon_F;
 			class Turrets;
 			class MainTurret;
 			class CommanderOptics;
+			class Components;
+			class SensorTemplateActiveRadar;
+			class SensorTemplateDataLink;
+			class CargoTurret;
+			class VehicleSystemsTemplateLeftGunner;
+			class VehicleSystemsTemplateRightGunner;
 			class VES_UH144_A;
 			class VES_VAF19;
 			class VES_IFV76_A;
+			class VES_M808B_MBT;
+
+			class Sabertooth_M12R: OPTRE_M12R_AA
+			{
+				dlc="Sabertooth Securities";
+				author="Vespade & Thomas";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				displayName="[Sabertooth] M12R Anti-Air Warthog";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Vehicles";
+				crew="VES_Rifleman_MA5B_MAR";
+				ace_refuel_fuelCapacity=150;
+				ace_refuel_hooks[]=
+				{
+					{-1.35,-0.60000002,-1.1}
+				};
+				enableRadio=1;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=10500;
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas";
+						textures[]=
+						{
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+						};
+					};
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+				};
+			};
+
+			class Sabertooth_M808B2: VES_M808B_MBT
+			{
+				dlc="Sabertooth Security";
+				author="Thomas & Vespade";
+				displayName="[Sabertooth] M808B2 Air Defense System";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Vehicles";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				maxHorizontalRotSpeed=1.8;
+				maxVerticalRotSpeed=1.8;
+				radarType=2;
+				damageResistance=0.0099999998;
+				crewVulnerable=0;
+				crewExplosionProtection=1;
+				armor=600;
+				enginePower=1200;
+				armorLights=1;
+				armorStructural=5;
+				minElev=-10;
+				maxElev=80;
+				class HitPoints
+				{
+					class HitTurret
+					{
+						armor=0.60000002;
+						material=-1;
+						name="otocVez";
+						visual="vez";
+						passThrough=0;
+						minimalHit=0.02;
+						explosionShielding=0.60000002;
+						radius=0.25;
+					};
+					class HitGun
+					{
+						armor=0.60000002;
+						material=-1;
+						name="otocHlaven";
+						visual="Hlaven";
+						passThrough=0;
+						minimalHit=0;
+						explosionShielding=0.60000002;
+						radius=0.25;
+					};
+					class HitHull
+					{
+						armor=4;
+						material=-1;
+						name="telo";
+						visual="zbytek";
+						passThrough=1;
+						minimalHit=0.2;
+						explosionShielding=0.2;
+						radius=0.30000001;
+					};
+					class HitEngine
+					{
+						armor=2;
+						material=-1;
+						name="engine";
+						passThrough=0.25;
+						minimalHit=0.30000001;
+						explosionShielding=0.2;
+						radius=0.2;
+					};
+					class HitLTrack
+					{
+						armor=2;
+						material=-1;
+						name="pas_L";
+						passThrough=0;
+						minimalHit=0.1;
+						explosionShielding=0.5;
+						radius=0.75;
+					};
+					class HitRTrack
+					{
+						armor=2;
+						material=-1;
+						name="pas_P";
+						passThrough=0;
+						minimalHit=0.1;
+						explosionShielding=0.5;
+						radius=0.75;
+					};
+				};
+				class Components: Components
+				{
+					class SensorsManagerComponent
+					{
+						class Components
+						{
+							class ActiveRadarSensorComponent: SensorTemplateActiveRadar
+							{
+								class AirTarget
+								{
+									minRange=9000;
+									maxRange=9000;
+									objectDistanceLimitCoef=-1;
+									viewDistanceLimitCoef=-1;
+								};
+								class GroundTarget
+								{
+									minRange=6000;
+									maxRange=6000;
+									objectDistanceLimitCoef=-1;
+									viewDistanceLimitCoef=-1;
+								};
+								typeRecognitionDistance=6000;
+								angleRangeHorizontal=360;
+								angleRangeVertical=100;
+								aimDown=-45;
+								maxTrackableSpeed=694.44397;
+							};
+							class DataLinkSensorComponent: SensorTemplateDataLink
+							{
+							};
+						};
+					};
+				};
+				class Turrets: Turrets
+				{
+					class CargoTurret1: CargoTurret
+					{
+						gunnerAction="passenger_inside_3";
+						gunnerCompartments="Compartment2";
+						memoryPointsGetInGunner="pos cargo1";
+						memoryPointsGetInGunnerDir="pos cargo1 dir";
+						memoryPointGunnerOptics="gunnerview";
+						gunnerName="Passenger Gunner 1";
+						proxyIndex=1;
+						maxElev=15;
+						minElev=-25;
+						maxTurn=60;
+						minTurn=-60;
+						isPersonTurret=2;
+						ejectDeadGunner=1;
+						gunnerInAction="passenger_inside_3";
+						startEngine=0;
+						allowLauncherIn=1;
+						allowLauncherOut=1;
+					};
+					class CargoTurret2: CargoTurret1
+					{
+						gunnerCompartments="Compartment2";
+						memoryPointsGetInGunner="pos cargo2";
+						memoryPointsGetInGunnerDir="pos cargo2 dir";
+						gunnerName="Passenger Gunner 2";
+						proxyIndex=2;
+					};
+					class CargoTurret3: CargoTurret1
+					{
+						proxyIndex=3;
+						gunnerName="Passenger Gunner 3";
+						gunnerCompartments="Compartment3";
+						memoryPointsGetInGunner="pos cargo3";
+						memoryPointsGetInGunnerDir="pos cargo3 dir";
+					};
+					class CargoTurret4: CargoTurret1
+					{
+						proxyIndex=4;
+						gunnerName="Passenger Gunner 4";
+						gunnerCompartments="Compartment3";
+						memoryPointsGetInGunner="pos cargo4";
+						memoryPointsGetInGunnerDir="pos cargo4 dir";
+					};
+					class CargoTurret5: CargoTurret1
+					{
+						proxyIndex=5;
+						gunnerName="Passenger Gunner 5";
+						gunnerCompartments="Compartment4";
+						memoryPointsGetInGunner="pos cargo5";
+						memoryPointsGetInGunnerDir="pos cargo6 dir";
+					};
+					class CargoTurret6: CargoTurret1
+					{
+						proxyIndex=6;
+						gunnerName="Passenger Gunner 6";
+						gunnerCompartments="Compartment4";
+						memoryPointsGetInGunner="pos cargo6";
+						memoryPointsGetInGunnerDir="pos cargo6 dir";
+					};
+					class CargoTurret7: CargoTurret1
+					{
+						proxyIndex=7;
+						gunnerName="Passenger Gunner 7";
+						gunnerCompartments="Compartment5";
+						memoryPointsGetInGunner="pos cargo7";
+						memoryPointsGetInGunnerDir="pos cargo7 dir";
+					};
+					class CargoTurret8: CargoTurret1
+					{
+						proxyIndex=8;
+						gunnerName="Passenger Gunner 8";
+						gunnerCompartments="Compartment5";
+						memoryPointsGetInGunner="pos cargo8";
+						memoryPointsGetInGunnerDir="pos cargo8 dir";
+					};
+					class MainTurret: MainTurret
+					{
+						class Components
+						{
+							class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftGunner
+							{
+								class Components: Components
+								{
+									class SensorDisplay
+									{
+										componentType="SensorsDisplayComponent";
+										range[]={16000,8000,4000,2000};
+										resource="RscCustomInfoSensors";
+									};
+								};
+							};
+							class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightGunner
+							{
+								defaultDisplay="SensorDisplay";
+								class Components: Components
+								{
+									class SensorDisplay
+									{
+										componentType="SensorsDisplayComponent";
+										range[]={16000,8000,4000,2000};
+										resource="RscCustomInfoSensors";
+									};
+								};
+							};
+						};
+						weapons[]=
+						{
+							"M288_autocannon",
+							"Argent_V_AA",
+							"STS_247T"
+						};
+						magazines[]=
+						{
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"Echo_680Rnd_AA_Shells_Red",
+							"4Rnd_Titan_long_missiles",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer"
+						};
+					};
+				};
+				hiddenSelections[]=
+				{
+					"Camo1",
+					"Camo2",
+					"Camo3",
+					"Camo4",
+					"Camo5",
+					"Camo6"
+				};
+			};
 
 			class Sabertooth_Badger: VES_IFV76_A
 			{
