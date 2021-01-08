@@ -24,7 +24,6 @@ class cfgPatches
 			"A3_Data_F",
 			"A3_Data_F_Mark",
 			"OPAEX_Core",
-			"Echo_Company_Armory",
 			"STSArmors"
 		};
 		weapons[]={};

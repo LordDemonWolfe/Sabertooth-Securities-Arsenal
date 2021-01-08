@@ -42,7 +42,7 @@ class cfgPatches
 				"A3_Data_F",
 				"A3_Data_F_Mark",
 				"OPAEX_Core",
-				"Echo_Company_Armory"
+				"Sabertooth_Securities_Units"
 			};
 			weapons[]={};
 			};
@@ -70,6 +70,19 @@ class cfgPatches
 			class gatling_20mm;
 			class MGun;
 			class FullAuto;
+			class missiles_ASRAAM;
+
+			class STS_Argent_V_AA: missiles_ASRAAM
+			{
+				displayName="'Argent V' AA Missile Launcher";
+				magazines[]=
+				{
+					"4Rnd_Titan_long_missiles"
+				};
+				reloadTime=8;
+				weaponLockDelay=1.7;
+				maxRange=9000;
+			};
 
 			class STS_230: gatling_20mm
 			{
@@ -222,7 +235,7 @@ class cfgPatches
 				displayName="[Sabertooth] M12R Anti-Air Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -259,6 +272,7 @@ class cfgPatches
 				displayName="[Sabertooth] M808B2 Air Defense System";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
+				crew="Sabertooth_Crewman";
 				scope=2;
 				scopeCurator=2;
 				forceInGarage=1;
@@ -484,20 +498,20 @@ class cfgPatches
 						};
 						weapons[]=
 						{
-							"M288_autocannon",
-							"Argent_V_AA",
+							"autocannon_35mm",
+							"STS_Argent_V_AA",
 							"STS_247T"
 						};
 						magazines[]=
 						{
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
-							"Echo_680Rnd_AA_Shells_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
+							"680Rnd_35mm_AA_shells_Tracer_Red",
 							"4Rnd_Titan_long_missiles",
 							"OPTRE_200Rnd_95x40_Box_Tracer",
 							"OPTRE_200Rnd_95x40_Box_Tracer",
@@ -521,6 +535,16 @@ class cfgPatches
 					"Camo5",
 					"Camo6"
 				};
+				hiddenSelectionsTextures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_Decals_ca.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co2.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co3.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co4.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co5.paa",
+					"OPTRE_Vehicles\Scorpion\data\turret_blk_co.paa"
+				};
 			};
 
 			class Sabertooth_Badger: VES_IFV76_A
@@ -533,7 +557,7 @@ class cfgPatches
 				displayName="[Sabertooth] IFV-76 HoneyBadger";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				armor=750;
 				class Turrets: Turrets
 				{
@@ -578,7 +602,7 @@ class cfgPatches
 				displayName="[Sabertooth] F/A-74 LongFang";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="OPTRE_UNSC_Airforce_Soldier_Airman";
+				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=12000;
@@ -632,7 +656,7 @@ class cfgPatches
 				displayName="[Sabertooth] UH-144 Falcon (Armed)";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="OPTRE_UNSC_Airforce_Soldier_Airman";
+				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=12000;
@@ -670,7 +694,7 @@ class cfgPatches
 				displayName="[Sabertooth] M914 Recovery Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -710,7 +734,7 @@ class cfgPatches
 				displayName="[Sabertooth] M12A1 Rocket Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -750,7 +774,7 @@ class cfgPatches
 				displayName="[Sabertooth] M12G1 Gauss Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -791,7 +815,7 @@ class cfgPatches
 				displayName="[Sabertooth] M813 Transport Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -831,7 +855,7 @@ class cfgPatches
 				displayName="[Sabertooth] M12 LRV Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -871,7 +895,7 @@ class cfgPatches
 				displayName="[Sabertooth] M12 APC Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
@@ -908,7 +932,7 @@ class cfgPatches
 				displayName="[Sabertooth] Cobra";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_Crew_WDL";
+				crew="Sabertooth_Crewman";
 				scope=2;
 				scopeCurator=2;
 				scopeArsenal=2;
@@ -923,8 +947,8 @@ class cfgPatches
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co.paa",
-					"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co2.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co2.paa",
 					"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
 					"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 					"a3\Armor_F\Data\cage_olive_CO.paa"
@@ -971,41 +995,15 @@ class cfgPatches
 				{
 					class Army
 					{
-						displayName="Woodland";
-						author="Barais, OPCAN & A3";
+						displayName="Sabertooth";
+						author="Thomas, OPCAN & A3";
 						textures[]=
 						{
-							"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co.paa",
-							"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_co2.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co2.paa",
 							"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
 							"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 							"a3\Armor_F\Data\cage_olive_CO.paa"
-						};
-					};
-					class tex_snow
-					{
-						displayName="Snow";
-						author="Barais, OPCAN & A3";
-						textures[]=
-						{
-							"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_SNW_co.paa",
-							"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_SNW_co2.paa",
-							"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
-							"Echo_Company_Armory\data\Vehicles\Misc\camonet_NATO_Snow_CO.paa",
-							"Echo_Company_Armory\data\Vehicles\Misc\cage_snow_CO.paa"
-						};
-					};
-					class tex_des
-					{
-						displayName="Desert";
-						author="Barais, OPCAN & A3";
-						textures[]=
-						{
-							"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_DES_co.paa",
-							"Echo_Company_Armory\data\Vehicles\Kobra\Echo_Kobra_DES_co2.paa",
-							"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa",
-							"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-							"a3\Armor_F\Data\cage_sand_CO.paa"
 						};
 					};
 				};
@@ -1020,7 +1018,7 @@ class cfgPatches
 				displayName="[Sabertooth] M12 FAV Warthog";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Vehicles";
-				crew="VES_Rifleman_MA5B_MAR";
+				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
 				{
