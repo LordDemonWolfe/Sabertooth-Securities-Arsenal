@@ -91,7 +91,7 @@ class cfgPatches
 				magazines[]={"OPTRE_100Rnd_50mm_HE","OPTRE_100Rnd_50mm_APFSDS"};
 				modes[]={"FullAuto","close","short","medium"};
 				cursor="EmptyCursor";
-				cursorAim="OPTRE_M231";
+				cursorAim="OPTRE_M230";
 				shotFromTurret=1;
 				selectionFireAnim="zasleh";
 				class FullAuto: MGun
