@@ -19,7 +19,9 @@ class cfgPatches
 			"Sabertooth_Falcon",
 			"Sabertooth_CAS",
 			"Sabertooth_Badger",
-			"Sabertooth_M808B2"
+			"Sabertooth_M808B2",
+			"Sabertooth_Hornet",
+			"Sabertooth_Tarantula"
 		};
 		magazines[]=
 		{
@@ -56,9 +58,29 @@ class cfgPatches
 		};
 		class CfgEditorSubcategories
 		{
-			class Sabertooth_Vehicles
+			class Sabertooth_APC
 			{
-				displayName="Vehicles";
+				displayName="APCs";
+			};
+			class Sabertooth_Tank
+			{
+				displayName="Tanks";
+			};
+			class Sabertooth_Jet
+			{
+				displayName="Jets";
+			};
+			class Sabertooth_Rotary
+			{
+				displayName="Rotary";
+			};
+			class Sabertooth_Car
+			{
+				displayName="Cars";
+			};
+			class Sabertooth_Anti_Air
+			{
+				displayName="Anti-Air";
 			};
 		};
 		class cfgWeapons
@@ -91,7 +113,7 @@ class cfgPatches
 				magazines[]={"OPTRE_100Rnd_50mm_HE","OPTRE_100Rnd_50mm_APFSDS"};
 				modes[]={"FullAuto","close","short","medium"};
 				cursor="EmptyCursor";
-				cursorAim="OPTRE_M230";
+				cursorAim="OPTRE_M231";
 				shotFromTurret=1;
 				selectionFireAnim="zasleh";
 				class FullAuto: MGun
@@ -224,6 +246,75 @@ class cfgPatches
 			class VES_VAF19;
 			class VES_IFV76_A;
 			class VES_M808B_MBT;
+			class VES_AV14_AGM;
+			class B_T_APC_Tracked_01_AA_F;
+
+			class Sabertooth_Tarantula: B_T_APC_Tracked_01_AA_F
+			{
+				dlc="Sabertooth Securities";
+				author="Vespade & Thomas";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				displayName="[Sabertooth] Tarantula";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Anti_Air";
+				crew="Sabertooth_Crewman";
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas";
+						textures[]=
+						{
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Tarantula\STS_AA_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Tarantula\STS_MBT_Body_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Tarantula\STS_AA_co2.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Misc\STS_camonet_co.paa"
+						};
+					};
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Tarantula\STS_AA_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Tarantula\STS_MBT_Body_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Tarantula\STS_AA_co2.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Misc\STS_camonet_co.paa"
+				};
+			};
+
+			class Sabertooth_Hornet: VES_AV14_AGM
+			{
+				dlc="Sabertooth Securities";
+				author="Vespade & Thomas";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				displayName="[Sabertooth] AV-14 Hornet";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Rotary";
+				crew="Sabertooth_Crewman";
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=12000;
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas";
+						textures[]=
+						{
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Hornet\STS_Hornet_co.paa"
+						};
+					};
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Hornet\STS_Hornet_co.paa"
+				};
+			};
 
 			class Sabertooth_M12R: OPTRE_M12R_AA
 			{
@@ -234,7 +325,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M12R Anti-Air Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -271,7 +362,7 @@ class cfgPatches
 				author="Thomas & Vespade";
 				displayName="[Sabertooth] M808B2 Air Defense System";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Anti_Air";
 				crew="Sabertooth_Crewman";
 				scope=2;
 				scopeCurator=2;
@@ -556,7 +647,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] IFV-76 HoneyBadger";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_APC";
 				crew="Sabertooth_Crewman";
 				armor=750;
 				class Turrets: Turrets
@@ -601,7 +692,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] F/A-74 LongFang";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Jet";
 				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
@@ -655,7 +746,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] UH-144 Falcon (Armed)";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Rotary";
 				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
@@ -693,7 +784,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M914 Recovery Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -733,7 +824,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M12A1 Rocket Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -773,7 +864,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M12G1 Gauss Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -814,7 +905,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M813 Transport Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -854,7 +945,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M12 LRV Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -894,7 +985,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M12 APC Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
@@ -931,7 +1022,7 @@ class cfgPatches
 				dlc="Sabertooth Securities";
 				displayName="[Sabertooth] Cobra";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_APC";
 				crew="Sabertooth_Crewman";
 				scope=2;
 				scopeCurator=2;
@@ -942,6 +1033,8 @@ class cfgPatches
 					"camo1",
 					"camo2",
 					"camo3",
+					"camo4",
+					"camo5",
 					"CamoNet",
 					"CamoSlat"
 				};
@@ -949,9 +1042,11 @@ class cfgPatches
 				{
 					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co.paa",
 					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co2.paa",
-					"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
-					"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
-					"a3\Armor_F\Data\cage_olive_CO.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Wheels_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Extras_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Commander_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Misc\STS_camonet_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Extras_co.paa"
 				};
 				weapons[]=
 				{
@@ -1001,9 +1096,11 @@ class cfgPatches
 						{
 							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co.paa",
 							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Cobra_co2.paa",
-							"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
-							"a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
-							"a3\Armor_F\Data\cage_olive_CO.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Wheels_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Extras_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Commander_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Misc\STS_camonet_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Cobra\STS_Extras_co.paa"
 						};
 					};
 				};
@@ -1017,7 +1114,7 @@ class cfgPatches
 				forceInGarage=1;
 				displayName="[Sabertooth] M12 FAV Warthog";
 				editorCategory="Sabertooth";
-				editorSubcategory="Sabertooth_Vehicles";
+				editorSubcategory="Sabertooth_Car";
 				crew="Sabertooth_Crewman";
 				ace_refuel_fuelCapacity=150;
 				ace_refuel_hooks[]=
