@@ -47,6 +47,52 @@ class CfgWeapons
 {
 	class OPTRE_MA5C;
 	class OPTRE_MA5CGL;
+	class OPTRE_M392_DMR;
+	class OPTRE_M6G;
+
+	class STS_M6G: OPTRE_M6G
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="OPTRE_M6G_Scope";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="OPTRE_M6_silencer";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="OPTRE_M6G_Flashlight";
+			};
+		};
+	};
+
+	class STS_M392: OPTRE_M392_DMR
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="OPTRE_BMR_Scope_v2";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="OPTRE_MA5Suppressor";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="bipod_01_F_blk";
+			};
+		};
+	};
 
 	class STS_MA5CGL: OPTRE_MA5CGL
 	{
@@ -75,6 +121,106 @@ class CfgWeapons
 class CfgVehicles
 {
   class B_Soldier_base_F;
+
+	class Sabertooth_Marksman: B_Soldier_base_F
+	{
+		displayName="[Sabertooth] Marksman";
+		author="Thomas";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="Sabertooth";
+    editorSubcategory="Sabertooth_Units";
+		backpack="OPTRE_UNSC_Rucksack_Heavy";
+		uniformClass="STS_BLK_SaberTooth_SlimLeg_Uniform";
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\blufor\data\clothing1_co.paa"
+		};
+		weapons[]=
+		{
+      "STS_M392",
+			"STS_M6G",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"STS_M392",
+			"STS_M6G",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"SmokeShell",
+			"SmokeShell",
+			"OPTRE_M9_Frag",
+			"OPTRE_M9_Frag"
+		};
+		respawnMagazines[]=
+		{
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_15Rnd_762x51_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"OPTRE_8Rnd_127x40_Mag_AP",
+			"SmokeShell",
+			"SmokeShell",
+			"OPTRE_M9_Frag",
+			"OPTRE_M9_Frag"
+		};
+		Items[]=
+		{
+			"OPTRE_Biofoam"
+		};
+		RespawnItems[]=
+		{
+			"OPTRE_Biofoam"
+		};
+		linkedItems[]=
+		{
+			"STS_R_CH252",
+      "STS_BLK_Basic_1",
+			"OPTRE_HUD_w_Glasses",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"TFAR_anprc152",
+			"ItemGPS",
+			"OPTRE_NVG",
+			"FirstAidKit"
+		};
+		respawnLinkedItems[]=
+		{
+			"STS_R_CH252",
+			"STS_BLK_Basic_1",
+			"OPTRE_HUD_w_Glasses",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"TFAR_anprc152",
+			"ItemGPS",
+			"OPTRE_NVG",
+			"FirstAidKit"
+		};
+	};
 
 	class Sabertooth_Grenadier: B_Soldier_base_F
   {
