@@ -181,13 +181,20 @@ class cfgPatches
 				cursor="EmptyCursor";
 				cursorAim="cannon";
 				nameSound="cannon";
-				muzzlePos="Cannon_muzzleflash";
-				muzzleEnd="Cannon_barrel_end";
-				selectionFireAnim="Cannon_muzzleflash";
 				autoFire=0;
+				reloadSound[]={"A3\sounds_f\vehicles\armor\noises\reload_tank_cannon_2",31.622776,1,10};
 				magazines[]=
 				{
 					"STS_25Rnd_ALIM_Gauss_Slugs"
+				};
+				class GunParticles
+				{
+					class effect1
+					{
+						positionName="konec hlavne";
+						directionName="Usti hlavne";
+						effectName="MachineGunCloud";
+		      };
 				};
 				reloadTime=10;
 				magazinereloadTime=9;
@@ -1026,7 +1033,6 @@ class cfgPatches
 				crew="Sabertooth_Crewman";
 				scope=2;
 				scopeCurator=2;
-				scopeArsenal=2;
 				forceInGarage=1;
 				hiddenSelections[]=
 				{
