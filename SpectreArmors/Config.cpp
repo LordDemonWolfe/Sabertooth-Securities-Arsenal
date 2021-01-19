@@ -150,7 +150,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"SpectreArmors\data\Helmets\CH252\RED\Spectre_CH252D_RED_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\RED\Spectre_CH252D_RED_CO.paa",
 				"SpectreArmors\data\Helmets\CH252D\Visors\CH252D_RED_Visor.paa"
 			};
 		};
@@ -188,7 +188,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"SpectreArmors\data\Helmets\CH252\PNK\Spectre_CH252D_PNK_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\PNK\Spectre_CH252D_PNK_CO.paa",
 				"SpectreArmors\data\Helmets\CH252D\Visors\CH252D_PNK_Visor.paa"
 			};
 		};
@@ -226,7 +226,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"SpectreArmors\data\Helmets\CH252\MED\Spectre_CH252D_MED_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\MED\Spectre_CH252D_MED_CO.paa",
 				"SpectreArmors\data\Helmets\CH252D\Visors\CH252D_RED_Visor.paa"
 			};
 		};
@@ -302,7 +302,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"SpectreArmors\data\Helmets\CH252\YLW\Spectre_CH252D_YLW_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\YLW\Spectre_CH252D_YLW_CO.paa",
 				"SpectreArmors\data\Helmets\CH252D\Visors\CH252D_YLW_Visor.paa"
 			};
 		};
@@ -313,7 +313,7 @@ class cfgWeapons
 		scope=1;
 		hiddenSelectionsTextures[] = 
 		{
-			"SpectreArmors\data\Helmets\CH252\YLW\Spectre_CH252D_YLW_CO.paa",
+			"SpectreArmors\data\Helmets\CH252D\YLW\Spectre_CH252D_YLW_CO.paa",
 			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 
@@ -321,7 +321,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = 
 			{
-				"SpectreArmors\data\Helmets\CH252\YLW\Spectre_CH252D_YLW_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\YLW\Spectre_CH252D_YLW_CO.paa",
 				"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 			};
 		};
@@ -340,7 +340,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252D_GRN_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\GRN\Spectre_CH252D_GRN_CO.paa",
 				"SpectreArmors\data\Helmets\CH252D\Visors\CH252D_GRN_Visor.paa"
 			};
 		};
@@ -351,7 +351,7 @@ class cfgWeapons
 		scope=1;
 		hiddenSelectionsTextures[] = 
 		{
-			"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252D_GRN_CO.paa",
+			"SpectreArmors\data\Helmets\CH252D\GRN\Spectre_CH252D_GRN_CO.paa",
 			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 
@@ -359,7 +359,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = 
 			{
-				"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252D_GRN_CO.paa",
+				"SpectreArmors\data\Helmets\CH252D\GRN\Spectre_CH252D_GRN_CO.paa",
 				"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 			};
 		};
@@ -554,7 +554,7 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = 
 			{
-				"SpectreArmors\data\Helmets\CH252\BLU\Spectre_CH252_R_RED_CO.paa",
+				"SpectreArmors\data\Helmets\CH252\BLU\Spectre_CH252_R_BLU_CO.paa",
 				"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_BLU_CA.paa"
 			};
 		};	
@@ -19875,7 +19875,7 @@ class cfgWeapons
 		{
 			"SpectreArmors\data\Armor\ODST\GRN\Spectre_M52_V_GRN_CO.paa",
 			"SpectreArmors\data\Armor\ODST\GRN\Spectre_M52_R_GRN_CO.paa",
-			"SpectreArmors\data\Armor\ODST\GRN\Spectre_M52_L_GRN_CO.paa",
+			"SpectreArmors\data\Armor\ODST\GRN\Spectre_M52_L_BLK_CO.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"SpectreArmors\data\Armor\ODST\GRN\Spectre_M52D_GRN_CO.paa"
 		};
