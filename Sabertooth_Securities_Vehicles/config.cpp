@@ -21,7 +21,8 @@ class cfgPatches
 			"Sabertooth_Badger",
 			"Sabertooth_M808B2",
 			"Sabertooth_Hornet",
-			"Sabertooth_Tarantula"
+			"Sabertooth_Tarantula",
+			"Sabertooth_Pelican"
 		};
 		magazines[]=
 		{
@@ -177,24 +178,17 @@ class cfgPatches
 			class STS_M98: cannon_120mm
 			{
 				displayName="M98 105mm Light Railgun";
-				shotFromTurret=1;
 				cursor="EmptyCursor";
 				cursorAim="cannon";
 				nameSound="cannon";
+				muzzlePos="Cannon_muzzleflash";
+				muzzleEnd="Cannon_barrel_end";
+				selectionFireAnim="zasleh";
 				autoFire=0;
 				reloadSound[]={"A3\sounds_f\vehicles\armor\noises\reload_tank_cannon_2",31.622776,1,10};
 				magazines[]=
 				{
 					"STS_25Rnd_ALIM_Gauss_Slugs"
-				};
-				class GunParticles
-				{
-					class effect1
-					{
-						positionName="konec hlavne";
-						directionName="Usti hlavne";
-						effectName="MachineGunCloud";
-		      };
 				};
 				reloadTime=10;
 				magazinereloadTime=9;
@@ -255,6 +249,134 @@ class cfgPatches
 			class VES_M808B_MBT;
 			class VES_AV14_AGM;
 			class B_T_APC_Tracked_01_AA_F;
+			class VES_D77HTCI_A;
+
+			class Sabertooth_Pelican: VES_D77HTCI_A
+			{
+				dlc="Sabertooth Securities";
+				author="Vespade & Thomas";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				displayName="[Sabertooth] DC-77H/TCI Pelican";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Rotary";
+				crew="Sabertooth_Crewman";
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=50000;
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas";
+						textures[]=
+						{
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Pelican\STS_Pelican.paa"
+						};
+					};
+				};
+				class Components: Components
+				{
+					class TransportPylonsComponent
+					{
+						UIPicture="\OPAEX_Pelican\Pelican.paa";
+						class pylons
+						{
+							class pylons1
+							{
+								maxweight=560;
+								hardpoints[]=
+								{
+									"OPAEX_Hardpoint_D77-TC"
+								};
+								attachment="OPAEX_M_ANVIL1_16Rnd";
+								bay=-1;
+								priority=2;
+								UIposition[]={0.1,0.5};
+								turret[]={};
+							};
+							class pylons2: pylons1
+							{
+								mirroredMissilePos=1;
+								UIposition[]={0.1,0.1};
+							};
+							class pylons3
+							{
+								maxweight=1000;
+								hardpoints[]=
+								{
+									"OPAEX_Hardpoint_D77-TC",
+									"B_BOMB_PYLON",
+									"O_BOMB_PYLON"
+								};
+								attachment="OPAEX_M_ANVIL1_16Rnd";
+								bay=-1;
+								priority=1;
+								UIposition[]={0.2,0.30000001};
+								turret[]={};
+							};
+						};
+						class Presets
+						{
+							class Empty
+							{
+								displayName="Empty";
+								attachment[]={};
+							};
+							class Default
+							{
+								displayName="CAP";
+								attachment[]=
+								{
+									"OPAEX_M_C2GMLS_6Rnd",
+									"OPAEX_M_C2GMLS_6Rnd"
+								};
+							};
+							class CAS_Rockets
+							{
+								displayName="CAS: ANVIL I";
+								attachment[]=
+								{
+									"OPAEX_M_ANVIL1_16Rnd",
+									"OPAEX_M_ANVIL1_16Rnd"
+								};
+							};
+							class CAS_Rockets_Guided
+							{
+								displayName="CAS: ANVIL II & III";
+								attachment[]=
+								{
+									"OPAEX_M_ANVIL2_16Rnd",
+									"OPAEX_M_ANVIL3_16Rnd"
+								};
+							};
+							class CAS_AT
+							{
+								displayName="AT";
+								attachment[]=
+								{
+									"OPAEX_M_AGM502_4Rnd",
+									"OPAEX_M_AGM502_4Rnd"
+								};
+							};
+						};
+					};
+				};
+				hiddenSelections[]=
+				{
+					"camo1",
+					"camo3",
+					"clan",
+					"clan_text",
+					"insignia"
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Pelican\STS_Pelican.paa"
+				};
+			};
 
 			class Sabertooth_Tarantula: B_T_APC_Tracked_01_AA_F
 			{
@@ -267,6 +389,9 @@ class cfgPatches
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Anti_Air";
 				crew="Sabertooth_Crewman";
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -304,7 +429,36 @@ class cfgPatches
 				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=12000;
+				tf_range=50000;
+				class Components: Components
+				{
+					class TransportPylonsComponent
+					{
+						UIPicture="\OPAEX_Hornet\Hornet.paa";
+						class Pylons
+						{
+							class Pylons1
+							{
+								hardpoints[]=
+								{
+									"B_BOMB_PYLON",
+									"OPAEX_Hardpoint_AV14",
+									"O_BOMB_PYLON"
+								};
+								attachment="Empty";
+								priority=5;
+								maxweight=300;
+								count=3;
+								UIposition[]={0.15000001,0.2};
+							};
+							class pylons2: Pylons1
+							{
+								mirroredMissilePos=1;
+								UIposition[]={0.34999999,0.2};
+							};
+						};
+					};
+				};
 				class TextureSources
 				{
 					class tex_nml
@@ -342,7 +496,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -386,6 +540,27 @@ class cfgPatches
 				armorStructural=5;
 				minElev=-10;
 				maxElev=80;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas";
+						textures[]=
+						{
+							"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_Decals_ca.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co2.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co3.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co4.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\SunDevil\STS_SunDevil_co5.paa",
+							"OPTRE_Vehicles\Scorpion\data\turret_blk_co.paa"
+						};
+					};
+				};
 				class HitPoints
 				{
 					class HitTurret
@@ -657,6 +832,9 @@ class cfgPatches
 				editorSubcategory="Sabertooth_APC";
 				crew="Sabertooth_Crewman";
 				armor=750;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
 				class Turrets: Turrets
 				{
 					class MainTurret: MainTurret
@@ -703,7 +881,7 @@ class cfgPatches
 				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=12000;
+				tf_range=50000;
 				maxSpeed=1500;
 				landingSpeed=290;
 				stallSpeed=180;
@@ -757,7 +935,7 @@ class cfgPatches
 				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=12000;
+				tf_range=50000;
 				class TextureSources
 				{
 					class tex_nml
@@ -801,7 +979,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -841,7 +1019,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -881,7 +1059,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -922,7 +1100,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -962,7 +1140,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -1002,7 +1180,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
@@ -1033,7 +1211,11 @@ class cfgPatches
 				crew="Sabertooth_Crewman";
 				scope=2;
 				scopeCurator=2;
+				scopeArsenal=2;
 				forceInGarage=1;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
 				hiddenSelections[]=
 				{
 					"camo1",
@@ -1130,7 +1312,7 @@ class cfgPatches
 				enableRadio=1;
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
-				tf_range=10500;
+				tf_range=40000;
 				class TextureSources
 				{
 					class tex_nml
