@@ -86,7 +86,7 @@ class cfgPatches
 		};
 		class cfgWeapons
 		{
-			class cannon_120mm;
+			class cannon_105mm;
 			class Mode_FullAuto;
 			class BaseSoundModeType;
 			class OPTRE_M247T_Coax;
@@ -114,7 +114,7 @@ class cfgPatches
 				magazines[]={"OPTRE_100Rnd_50mm_HE","OPTRE_100Rnd_50mm_APFSDS"};
 				modes[]={"FullAuto","close","short","medium"};
 				cursor="EmptyCursor";
-				cursorAim="OPTRE_M231";
+				cursorAim="OPTRE_M230";
 				shotFromTurret=1;
 				selectionFireAnim="zasleh";
 				class FullAuto: MGun
@@ -175,15 +175,16 @@ class cfgPatches
 				};
 			};
 
-			class STS_M98: cannon_120mm
+			class STS_M98: cannon_105mm
 			{
 				displayName="M98 105mm Light Railgun";
 				cursor="EmptyCursor";
 				cursorAim="cannon";
 				nameSound="cannon";
-				muzzlePos="Cannon_muzzleflash";
-				muzzleEnd="Cannon_barrel_end";
+				muzzlePos="usti hlavne";
+				muzzleEnd="konec hlavne";
 				selectionFireAnim="zasleh";
+				shotFromTurret=1;
 				autoFire=0;
 				reloadSound[]={"A3\sounds_f\vehicles\armor\noises\reload_tank_cannon_2",31.622776,1,10};
 				magazines[]=
@@ -258,13 +259,15 @@ class cfgPatches
 				scope=2;
 				scopeCurator=2;
 				forceInGarage=1;
-				displayName="[Sabertooth] DC-77H/TCI Pelican";
+				displayName="[Sabertooth] D-77H/TCI Pelican Gunship";
 				editorCategory="Sabertooth";
 				editorSubcategory="Sabertooth_Rotary";
 				crew="Sabertooth_Crewman";
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=50000;
+				weapons[] = { "CMFlareLauncher","OPTRE_missiles_Anvil1", "Twin_Cannon_20mm" };
+				magazines[] = { "168Rnd_CMFlare_Chaff_Magazine","OPTRE_32Rnd_Anvil1_missiles", "1000Rnd_20mm_shells"};
 				class TextureSources
 				{
 					class tex_nml
