@@ -162,7 +162,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"SpectreArmors\data\Helmets\CH252D\RED\Spectre_CH252D_RED_CO.paa",
-			"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 
 		class ItemInfo: ItemInfo
@@ -170,7 +170,7 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = 
 			{
 				"SpectreArmors\data\Helmets\CH252D\RED\Spectre_CH252D_RED_CO.paa",
-				"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+				"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 			};
 		};
 	};
@@ -200,7 +200,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"SpectreArmors\data\Helmets\CH252D\PNK\Spectre_CH252D_PNK_CO.paa",
-			"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 
 		class ItemInfo: ItemInfo
@@ -208,7 +208,7 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = 
 			{
 				"SpectreArmors\data\Helmets\CH252D\PNK\Spectre_CH252D_PNK_CO.paa",
-				"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+				"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 			};
 		};
 	};
@@ -238,7 +238,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"SpectreArmors\data\Helmets\CH252D\MED\Spectre_CH252D_MED_CO.paa",
-			"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 
 		class ItemInfo: ItemInfo
@@ -246,7 +246,7 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = 
 			{
 				"SpectreArmors\data\Helmets\CH252D\MED\Spectre_CH252D_MED_CO.paa",
-				"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+				"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 			};
 		};
 	};
@@ -352,7 +352,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252D_GRN_CO.paa",
-			"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+			"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 		};
 
 		class ItemInfo: ItemInfo
@@ -360,7 +360,7 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = 
 			{
 				"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252D_GRN_CO.paa",
-				"SpectreArmors\data\Helmets\CH252D\Visors\helmet_visor_co.paa"
+				"optre_unsc_units\army\data\odst_helmet_visor_co.paa"
 			};
 		};
 	};
