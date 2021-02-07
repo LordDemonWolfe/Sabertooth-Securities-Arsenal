@@ -55,6 +55,7 @@ class cfgWeapons
   class HeadgearItem;
   class OPTRE_UNSC_CH252_Helmet_Vacuum_MAR;
   class OPTRE_UNSC_CH252_Helmet_MAR;
+  class OPTRE_UNSC_CH252_Helmet3_WDL;
   class OPTRE_UNSC_Recon_Helmet;
   class OPTRE_UNSC_Recon_Helmet_dp;
 
@@ -69,7 +70,7 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO",
       "optre_unsc_units\army\data\odst_helmet_visor_co.paa"
     };
     CBRN_protection=1;
@@ -121,7 +122,7 @@ class cfgWeapons
     };
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO"
+      "STSArmors\Data\Textures\Helmets\ODST\STS_CH252D_BLK_CO"
     };
     CBRN_protection=1;
     class ItemInfo: HeadgearItem
@@ -185,8 +186,8 @@ class cfgWeapons
     };
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
     };
     hiddenSelectionsMaterials[]=
     {
@@ -199,8 +200,8 @@ class cfgWeapons
       uniformModel="OPTRE_UNSC_Units\Army\helmet";
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
 
       };
       hiddenSelectionsMaterials[]=
@@ -234,8 +235,8 @@ class cfgWeapons
     };
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
     };
     hiddenSelectionsMaterials[]=
     {
@@ -248,8 +249,8 @@ class cfgWeapons
       uniformModel="OPTRE_UNSC_Units\Army\helmet";
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
       };
       hiddenSelectionsMaterials[]=
       {
@@ -264,7 +265,7 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
     };
     hiddenSelectionsMaterials[]=
     {
@@ -276,7 +277,7 @@ class cfgWeapons
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
       };
       hiddenSelectionsMaterials[]=
       {
@@ -292,14 +293,14 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
       };
     };
   };
@@ -309,16 +310,16 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
       };
     };
   };
@@ -328,16 +329,16 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
       };
     };
   };
@@ -348,8 +349,8 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
+      "STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
     };
     hiddenSelectionsMaterials[]=
     {
@@ -362,8 +363,8 @@ class cfgWeapons
       uniformModel="\OPTRE_UNSC_Units\Army\aa_helmet.p3d";
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
+        "STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
       };
     };
   };
@@ -374,8 +375,8 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
+      "STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
     };
     hiddenSelectionsMaterials[]=
     {
@@ -388,8 +389,8 @@ class cfgWeapons
       uniformModel="\OPTRE_UNSC_Units\Army\aa_helmet_dp.p3d";
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
+        "STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
       };
     };
   };
@@ -399,16 +400,16 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_RED_CA.paa"
       };
     };
   };
@@ -418,16 +419,16 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
       };
     };
   };
@@ -442,7 +443,7 @@ class cfgWeapons
     displayName = "[Sabertooth] CH252 BLK Collar";
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO.paa"
     };
   };
   class STS_CORP_ECH252: STS_R_ECH252
@@ -450,16 +451,16 @@ class cfgWeapons
     displayName = "[Sabertooth] CH252 BLK Corpsman Vac";
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
       };
     };
   };
@@ -469,7 +470,7 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
     };
     hiddenSelectionsMaterials[]=
     {
@@ -481,7 +482,7 @@ class cfgWeapons
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
       };
       hiddenSelectionsMaterials[]=
       {
@@ -497,14 +498,14 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
       };
     };
   };
@@ -514,16 +515,16 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_GLD_CA.paa"
       };
     };
   };
@@ -533,16 +534,18 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa",
+      "optre_unsc_units\army\data\ghillie_desert_co.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_BLU_CA.paa",
+        "optre_unsc_units\army\data\ghillie_desert_co.paa"
       };
     };
   };
@@ -552,16 +555,16 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[] =
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
       };
     };
   };
@@ -571,16 +574,16 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
       };
     };
   };
@@ -590,16 +593,18 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+      "optre_unsc_units\army\data\ghillie_desert_co.paa"
     };
 
     class ItemInfo: ItemInfo
     {
       hiddenSelectionsTextures[]=
       {
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
-        "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa"
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_ca.paa",
+        "optre_unsc_units\army\data\ghillie_desert_co.paa"
       };
     };
   };
@@ -609,9 +614,69 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa"
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa"
     };
   };
+
+  class STS_BLK_Ghillie: OPTRE_UNSC_CH252_Helmet3_WDL
+	{
+		displayName="CH252 Helmet (Sabertooth) [Black]";
+		hiddenSelectionsTextures[]=
+		{
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+			"STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+				"STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Black_co.paa"
+			};
+		};
+	};
+
+  class STS_SNO_Ghillie: OPTRE_UNSC_CH252_Helmet3_WDL
+	{
+		displayName="CH252 Helmet (Sabertooth) [Snow]";
+		hiddenSelectionsTextures[]=
+		{
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+			"STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Snow_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+				"STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Snow_co.paa"
+			};
+		};
+	};
+
+  class STS_URB_Ghillie: OPTRE_UNSC_CH252_Helmet3_WDL
+	{
+		displayName="CH252 Helmet (Sabertooth) [Urban]";
+		hiddenSelectionsTextures[]=
+		{
+      "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+      "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+			"STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Urban_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+        "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_R_BLK_CO",
+        "STSArmors\Data\Textures\Helmets\Marine\Visors\CHVISR_CA.paa",
+				"STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Urban_co.paa"
+			};
+		};
+	};
 
   /** RECON Helmet **/
   class STS_Recon_STS: OPTRE_UNSC_Recon_Helmet
@@ -620,7 +685,7 @@ class cfgWeapons
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
       "optre_unsc_units\army\data\recon_visor_co.paa"
     };
   };
@@ -630,7 +695,7 @@ class cfgWeapons
     scope=1;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
+      "STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
       "optre_unsc_units\army\data\recon_visor_ca.paa"
     };
   };
@@ -650,11 +715,11 @@ class cfgWeapons
 
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
       "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52D_BLK_CO"
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52D_BLK_CO"
     };
 
     class ItemInfo: ItemInfo
@@ -668,26 +733,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -788,26 +853,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -828,7 +893,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -906,26 +971,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -946,10 +1011,10 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -1024,26 +1089,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1064,10 +1129,10 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -1142,26 +1207,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1174,7 +1239,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -1182,7 +1247,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -1260,26 +1325,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1292,7 +1357,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -1300,7 +1365,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -1378,26 +1443,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1418,7 +1483,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -1496,26 +1561,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1539,7 +1604,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -1614,26 +1679,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1646,7 +1711,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -1657,7 +1722,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -1732,26 +1797,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1764,7 +1829,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -1775,7 +1840,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -1850,26 +1915,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1893,7 +1958,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -1968,26 +2033,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -1997,7 +2062,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -2005,10 +2070,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -2086,26 +2151,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -2115,7 +2180,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -2123,10 +2188,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -2204,26 +2269,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -2233,7 +2298,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -2241,13 +2306,13 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -2322,26 +2387,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -2351,7 +2416,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -2359,13 +2424,13 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -2440,26 +2505,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -2467,7 +2532,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -2558,18 +2623,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -2577,8 +2642,8 @@ class cfgWeapons
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
-        //				"AS_ODSTSniperLeft",
+//			"AS_ODSTRight",
+//			"AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
@@ -2602,7 +2667,7 @@ class cfgWeapons
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
-        //				"APO_Sniper",
+//			"APO_Sniper",
         "CustomKit_Scorch"
       };
 
@@ -2676,18 +2741,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -2695,8 +2760,8 @@ class cfgWeapons
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
-        //				"AS_ODSTSniperLeft",
+//			"AS_ODSTRight",
+//			"AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
@@ -2719,8 +2784,8 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
-        //				"APO_Sniper",
+//			"APO_SMG",
+//			"APO_Sniper",
         "CustomKit_Scorch"
       };
 
@@ -2794,18 +2859,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -2813,8 +2878,8 @@ class cfgWeapons
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
-        //				"AS_ODSTSniperLeft",
+//			"AS_ODSTRight",
+//			"AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
@@ -2826,7 +2891,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -2838,7 +2903,7 @@ class cfgWeapons
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
-        //				"APO_Sniper",
+//			"APO_Sniper",
         "CustomKit_Scorch"
       };
 
@@ -2912,26 +2977,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
-        //				"AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTLeft",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -2939,7 +3004,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -3030,18 +3095,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -3049,8 +3114,8 @@ class cfgWeapons
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
-        //				"AS_ODSTSniperLeft",
+//			"AS_ODSTRight",
+//			"AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
@@ -3073,8 +3138,8 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
-        //				"APO_Sniper",
+//			"APO_SMG",
+//			"APO_Sniper",
         "CustomKit_Scorch"
       };
 
@@ -3148,18 +3213,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -3167,8 +3232,8 @@ class cfgWeapons
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
-        //				"AS_ODSTSniperLeft",
+//			"AS_ODSTRight",
+//			"AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
@@ -3180,7 +3245,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -3192,7 +3257,7 @@ class cfgWeapons
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
-        //				"APO_Sniper",
+//			"APO_Sniper",
         "CustomKit_Scorch"
       };
 
@@ -3266,26 +3331,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -3384,26 +3449,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -3424,7 +3489,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -3502,26 +3567,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -3531,7 +3596,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -3539,10 +3604,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -3620,26 +3685,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -3649,7 +3714,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -3657,10 +3722,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -3738,26 +3803,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -3770,7 +3835,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -3778,7 +3843,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -3856,26 +3921,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -3888,7 +3953,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -3896,7 +3961,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -3974,26 +4039,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4014,10 +4079,10 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -4092,26 +4157,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4132,10 +4197,10 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -4210,26 +4275,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4237,7 +4302,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -4328,26 +4393,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4355,7 +4420,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -4446,26 +4511,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4489,7 +4554,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -4564,26 +4629,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4593,7 +4658,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -4601,13 +4666,13 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -4682,26 +4747,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4711,7 +4776,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -4719,13 +4784,13 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -4800,26 +4865,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4832,7 +4897,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -4843,7 +4908,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -4918,26 +4983,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -4950,7 +5015,7 @@ class cfgWeapons
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
-        //				"AP_Pistol",
+//			"AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
@@ -4961,7 +5026,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -5036,26 +5101,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -5079,7 +5144,7 @@ class cfgWeapons
         "APO_AR",
         "APO_BR",
         "APO_Knife",
-        //				"APO_SMG",
+//			"APO_SMG",
         "APO_Sniper",
         "CustomKit_Scorch"
       };
@@ -5154,26 +5219,26 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
-        //				"A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
-        //				"A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ODST",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
+//			"A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
-        //				"AS_ODSTCQBLeft",
+//			"AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
-        //				"AS_ODSTRight",
+//			"AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
@@ -5194,7 +5259,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -5260,7 +5325,7 @@ class cfgWeapons
   /** STS Marine */
   class OPTRE_UNSC_M52A_Armor_Base;
   class VestItem;
-
+  
   class STS_BLK_Basic_1: OPTRE_UNSC_M52A_Armor_Base
   {
     author="A Taylor and Jay + Krevan";
@@ -5276,18 +5341,18 @@ class cfgWeapons
       "camo4",
       "camo5",
       "A_Ghillie",
-      //			"A_KneesLeft",
-      //			"A_KneesRight",
+//		"A_KneesLeft",
+//		"A_KneesRight",
       "A_KneesMarLeft",
       "A_KneesMarRight",
       "A_ODST",
       "A_ShinArmorLeft",
       "A_ShinArmorRight",
       "A_TacPad",
-      //			"A_ThighArmorLeft",
-      //			"A_ThighArmorRight",
-      //			"AS_BaseLeft",
-      //			"AS_BaseRight",
+//		"A_ThighArmorLeft",
+//		"A_ThighArmorRight",
+//		"AS_BaseLeft",
+//		"AS_BaseRight",
       "AS_LargeLeft",
       "AS_LargeRight",
       "AS_MediumLeft",
@@ -5325,10 +5390,10 @@ class cfgWeapons
     };
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
-      "optre_unsc_units\army\data\ghillie_desert_co.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\ghillie_urban_co.paa",
       "optre_unsc_units\army\data\odst_armor_co.paa"
     };
     picture = "\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
@@ -5344,18 +5409,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -5460,18 +5525,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -5499,7 +5564,7 @@ class cfgWeapons
         "AP_Sniper",
         "AP_Thigh",
         "AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -5572,18 +5637,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -5612,7 +5677,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -5684,18 +5749,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -5708,13 +5773,13 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
@@ -5796,18 +5861,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -5822,7 +5887,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -5908,18 +5973,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -5947,8 +6012,8 @@ class cfgWeapons
         "AP_Sniper",
         "AP_Thigh",
         "AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -6020,18 +6085,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6044,13 +6109,13 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
@@ -6059,7 +6124,7 @@ class cfgWeapons
         "AP_Sniper",
         "AP_Thigh",
         "AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -6132,18 +6197,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6158,7 +6223,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -6172,7 +6237,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -6244,18 +6309,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6268,17 +6333,4313 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_1: STS_BLK_Basic_1
+  {
+    author="A Taylor and Jay + Krevan";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black]";
+    model="\OPTRE_UNSC_Units\Army\armor.p3d";
+    hiddenSelectionsTextures[] =
+    {
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Black_co.paa",
+      "optre_unsc_units\army\data\odst_armor_co.paa"
+    };
+    hiddenSelections[]=
+    {
+      "camo",
+      "camo2",
+      "camo3",
+      "camo4",
+      "camo5",
+//    "A_Ghillie",
+//		"A_KneesLeft",
+//		"A_KneesRight",
+      "A_KneesMarLeft",
+      "A_KneesMarRight",
+      "A_ODST",
+      "A_ShinArmorLeft",
+      "A_ShinArmorRight",
+      "A_TacPad",
+//		"A_ThighArmorLeft",
+//		"A_ThighArmorRight",
+//		"AS_BaseLeft",
+//		"AS_BaseRight",
+      "AS_LargeLeft",
+      "AS_LargeRight",
+      "AS_MediumLeft",
+      "AS_MediumRight",
+      "AS_ODSTCQBLeft",
+      "AS_ODSTCQBRight",
+      "AS_ODSTLeft",
+      "AS_ODSTRight",
+      "AS_ODSTSniperLeft",
+      "AS_ODSTSniperRight",
+      "AS_SmallLeft",
+      "AS_SmallRight",
+      "AP_AR",
+      "AP_BR",
+      "AP_Canteen",
+      "AP_GL",
+      "AP_Knife",
+      "AP_MGThigh",
+      "AP_AR",
+      "AP_Pack",
+      "AP_Pistol",
+      "AP_Rounds",
+      "AP_SG",
+      "AP_SMG",
+      "AP_Sniper",
+      "AP_Thigh",
+      "AP_Frag",
+      "AP_Smoke",
+      "APO_AR",
+      "APO_BR",
+      "APO_Knife",
+      "APO_SMG",
+      "APO_Sniper",
+      "CustomKit_Scorch"
+    };
+    picture = "\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+    	containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_2: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Smoke)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_3: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_4: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_5: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Can)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_6: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Smoke,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_7: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Smoke,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_8: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Can,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Ghillie_9: STS_BLK_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Black](Can,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_1: STS_BLK_Basic_1
+  {
+    author="A Taylor and Jay + Krevan";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban]";
+    model="\OPTRE_UNSC_Units\Army\armor.p3d";
+    hiddenSelectionsTextures[] =
+    {
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Urban_co.paa",
+      "optre_unsc_units\army\data\odst_armor_co.paa"
+    };
+    hiddenSelections[]=
+    {
+      "camo",
+      "camo2",
+      "camo3",
+      "camo4",
+      "camo5",
+//    "A_Ghillie",
+//		"A_KneesLeft",
+//		"A_KneesRight",
+      "A_KneesMarLeft",
+      "A_KneesMarRight",
+      "A_ODST",
+      "A_ShinArmorLeft",
+      "A_ShinArmorRight",
+      "A_TacPad",
+//		"A_ThighArmorLeft",
+//		"A_ThighArmorRight",
+//		"AS_BaseLeft",
+//		"AS_BaseRight",
+      "AS_LargeLeft",
+      "AS_LargeRight",
+      "AS_MediumLeft",
+      "AS_MediumRight",
+      "AS_ODSTCQBLeft",
+      "AS_ODSTCQBRight",
+      "AS_ODSTLeft",
+      "AS_ODSTRight",
+      "AS_ODSTSniperLeft",
+      "AS_ODSTSniperRight",
+      "AS_SmallLeft",
+      "AS_SmallRight",
+      "AP_AR",
+      "AP_BR",
+      "AP_Canteen",
+      "AP_GL",
+      "AP_Knife",
+      "AP_MGThigh",
+      "AP_AR",
+      "AP_Pack",
+      "AP_Pistol",
+      "AP_Rounds",
+      "AP_SG",
+      "AP_SMG",
+      "AP_Sniper",
+      "AP_Thigh",
+      "AP_Frag",
+      "AP_Smoke",
+      "APO_AR",
+      "APO_BR",
+      "APO_Knife",
+      "APO_SMG",
+      "APO_Sniper",
+      "CustomKit_Scorch"
+    };
+    picture = "\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+    	containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_2: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Smoke)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_3: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_4: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_5: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Can)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_6: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Smoke,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_7: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Smoke,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_8: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Can,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_URB_Ghillie_9: STS_URB_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Urban](Can,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_1: STS_BLK_Basic_1
+  {
+    author="A Taylor and Jay + Krevan";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow]";
+    model="\OPTRE_UNSC_Units\Army\armor.p3d";
+    hiddenSelectionsTextures[] =
+    {
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\ghillie_Snow_co.paa",
+      "optre_unsc_units\army\data\odst_armor_co.paa"
+    };
+    hiddenSelections[]=
+    {
+      "camo",
+      "camo2",
+      "camo3",
+      "camo4",
+      "camo5",
+//    "A_Ghillie",
+//		"A_KneesLeft",
+//		"A_KneesRight",
+      "A_KneesMarLeft",
+      "A_KneesMarRight",
+      "A_ODST",
+      "A_ShinArmorLeft",
+      "A_ShinArmorRight",
+      "A_TacPad",
+//		"A_ThighArmorLeft",
+//		"A_ThighArmorRight",
+//		"AS_BaseLeft",
+//		"AS_BaseRight",
+      "AS_LargeLeft",
+      "AS_LargeRight",
+      "AS_MediumLeft",
+      "AS_MediumRight",
+      "AS_ODSTCQBLeft",
+      "AS_ODSTCQBRight",
+      "AS_ODSTLeft",
+      "AS_ODSTRight",
+      "AS_ODSTSniperLeft",
+      "AS_ODSTSniperRight",
+      "AS_SmallLeft",
+      "AS_SmallRight",
+      "AP_AR",
+      "AP_BR",
+      "AP_Canteen",
+      "AP_GL",
+      "AP_Knife",
+      "AP_MGThigh",
+      "AP_AR",
+      "AP_Pack",
+      "AP_Pistol",
+      "AP_Rounds",
+      "AP_SG",
+      "AP_SMG",
+      "AP_Sniper",
+      "AP_Thigh",
+      "AP_Frag",
+      "AP_Smoke",
+      "APO_AR",
+      "APO_BR",
+      "APO_Knife",
+      "APO_SMG",
+      "APO_Sniper",
+      "CustomKit_Scorch"
+    };
+    picture = "\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+    	containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_2: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Smoke)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_3: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_4: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_5: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Can)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_6: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Smoke,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_7: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Smoke,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_8: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Can,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_SNO_Ghillie_9: STS_SNO_Ghillie_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Ghillie [Snow](Can,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+//      "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+        "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_1: STS_BLK_Basic_1
+  {
+    author="A Taylor and Jay + Krevan";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName="[Sabertooth] M52A WDL 0 Breacher";
+    model="\OPTRE_UNSC_Units\Army\armor.p3d";
+    hiddenSelections[]=
+    {
+      "camo",
+      "camo2",
+      "camo3",
+      "camo4",
+      "camo5",
+//    "A_Ghillie",
+//		"A_KneesLeft",
+//		"A_KneesRight",
+      "A_KneesMarLeft",
+      "A_KneesMarRight",
+      "A_ODST",
+      "A_ShinArmorLeft",
+      "A_ShinArmorRight",
+      "A_TacPad",
+//		"A_ThighArmorLeft",
+//		"A_ThighArmorRight",
+//		"AS_BaseLeft",
+//		"AS_BaseRight",
+      "AS_LargeLeft",
+      "AS_LargeRight",
+//    "AS_MediumLeft",
+      "AS_MediumRight",
+      "AS_ODSTCQBLeft",
+      "AS_ODSTCQBRight",
+      "AS_ODSTLeft",
+      "AS_ODSTRight",
+      "AS_ODSTSniperLeft",
+      "AS_ODSTSniperRight",
+      "AS_SmallLeft",
+//    "AS_SmallRight",
+      "AP_AR",
+      "AP_BR",
+      "AP_Canteen",
+      "AP_GL",
+      "AP_Knife",
+      "AP_MGThigh",
+      "AP_AR",
+      "AP_Pack",
+      "AP_Pistol",
+      "AP_Rounds",
+//    "AP_SG",
+      "AP_SMG",
+      "AP_Sniper",
+      "AP_Thigh",
+      "AP_Frag",
+      "AP_Smoke",
+      "APO_AR",
+      "APO_BR",
+      "APO_Knife",
+      "APO_SMG",
+      "APO_Sniper",
+      "CustomKit_Scorch"
+    };
+    picture = "\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+        "A_KneesMarLeft",
+        "A_KneesMarRight",
+        "A_ODST",
+        "A_ShinArmorLeft",
+        "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+    	containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_2: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Smoke)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_3: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_4: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_5: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Can)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_6: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Smoke,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_7: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Smoke,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+//			"AP_Smoke",
+        "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_8: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Can,Pouch)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+        "AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+        "AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+        "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//			"APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+      containerClass="Supply240";
+      mass=75;
+      class HitpointsProtectionInfo
+      {
+        class Neck
+        {
+          hitpointName="HitNeck";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Arms
+        {
+          hitpointName="HitArms";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Chest
+        {
+          hitpointName="HitChest";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Diaphragm
+        {
+          hitpointName="HitDiaphragm";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Abdomen
+        {
+          hitpointName="HitAbdomen";
+          armor=35;
+          passThrough=0.1;
+        };
+        class Body
+        {
+          hitpointName="HitBody";
+          passThrough=0.1;
+          armor=35;
+        };
+        class Legs
+        {
+          hitpointName="HitLegs";
+          armor=25;
+          passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_BLK_Breacher_9: STS_BLK_Breacher_1
+  {
+    displayName="[Sabertooth] M52A WDL 0 Breacher(Can,Pouch+)";
+    class ItemInfo: VestItem
+    {
+      vestType="Rebreather";
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//      "A_KneesMarLeft",
+//      "A_KneesMarRight",
+        "A_ODST",
+//      "A_ShinArmorLeft",
+//      "A_ShinArmorRight",
+        "A_TacPad",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+//      "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+        "AS_ODSTLeft",
+        "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+//      "AS_SmallRight",
+//			"AP_AR",
+        "AP_BR",
+//			"AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+        "AP_MGThigh",
+//			"AP_AR",
+        "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+//      "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
@@ -6356,18 +10717,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6378,8 +10739,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -6468,18 +10829,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6490,8 +10851,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -6506,8 +10867,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -6580,18 +10941,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6602,8 +10963,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -6620,7 +10981,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -6692,18 +11053,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6714,16 +11075,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -6804,18 +11165,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6826,11 +11187,11 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -6916,18 +11277,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -6938,13 +11299,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -7028,18 +11389,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7050,8 +11411,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -7066,9 +11427,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -7140,18 +11501,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7162,24 +11523,24 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -7252,18 +11613,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7274,11 +11635,11 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -7292,7 +11653,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -7364,18 +11725,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7386,16 +11747,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -7476,18 +11837,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7498,13 +11859,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -7514,8 +11875,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -7588,18 +11949,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7610,13 +11971,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -7700,18 +12061,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7722,13 +12083,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -7738,9 +12099,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -7812,18 +12173,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7834,24 +12195,24 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -7924,18 +12285,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -7946,13 +12307,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -7964,7 +12325,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -8036,18 +12397,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8058,16 +12419,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -8148,18 +12509,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8170,13 +12531,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -8188,7 +12549,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -8260,18 +12621,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
         "A_ShinArmorLeft",
         "A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8282,16 +12643,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -8372,18 +12733,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8394,8 +12755,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -8484,18 +12845,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8506,11 +12867,11 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -8596,18 +12957,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8618,8 +12979,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -8634,8 +12995,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -8708,18 +13069,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8730,13 +13091,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -8820,18 +13181,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8842,8 +13203,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -8860,7 +13221,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -8932,18 +13293,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -8954,16 +13315,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -9044,18 +13405,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9066,13 +13427,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -9156,18 +13517,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9178,13 +13539,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -9194,8 +13555,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -9268,18 +13629,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9290,13 +13651,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -9308,7 +13669,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -9380,18 +13741,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9402,16 +13763,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -9492,18 +13853,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9514,13 +13875,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -9530,9 +13891,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -9604,18 +13965,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9626,24 +13987,24 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -9716,18 +14077,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9738,11 +14099,11 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -9756,7 +14117,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -9828,18 +14189,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9850,16 +14211,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -9940,18 +14301,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -9962,8 +14323,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -9978,9 +14339,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -10052,18 +14413,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10074,24 +14435,24 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -10164,18 +14525,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10186,12 +14547,12 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -10276,18 +14637,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10298,13 +14659,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -10388,18 +14749,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10410,13 +14771,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -10426,8 +14787,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -10500,18 +14861,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10522,13 +14883,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_Canteen",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -10612,18 +14973,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10634,12 +14995,12 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
+//			"AP_Canteen",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -10723,18 +15084,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -10745,12 +15106,12 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -10761,8 +15122,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -10834,22 +15195,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -10945,22 +15306,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -10985,7 +15346,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -11056,22 +15417,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11080,14 +15441,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -11167,22 +15528,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11205,8 +15566,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -11278,22 +15639,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11306,7 +15667,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -11389,22 +15750,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11416,7 +15777,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -11500,22 +15861,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11526,7 +15887,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -11611,22 +15972,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11640,7 +16001,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -11648,7 +16009,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -11722,22 +16083,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11748,9 +16109,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -11833,22 +16194,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11859,9 +16220,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -11873,7 +16234,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -11944,22 +16305,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -11968,14 +16329,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -12055,22 +16416,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12081,10 +16442,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -12092,7 +16453,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -12166,22 +16527,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12192,10 +16553,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -12203,10 +16564,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -12277,22 +16638,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12301,20 +16662,20 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_Knife",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -12388,22 +16749,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12414,10 +16775,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Canteen",
+//			"AP_GL",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -12425,7 +16786,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -12499,22 +16860,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12527,7 +16888,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -12537,8 +16898,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -12610,22 +16971,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12638,8 +16999,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -12647,9 +17008,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -12721,22 +17082,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12749,8 +17110,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -12758,10 +17119,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -12832,22 +17193,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12856,22 +17217,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_Knife",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -12943,22 +17304,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -12972,7 +17333,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -12980,10 +17341,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -13054,22 +17415,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13078,20 +17439,20 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -13165,22 +17526,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13193,7 +17554,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -13205,7 +17566,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -13276,22 +17637,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13300,14 +17661,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -13387,22 +17748,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13414,8 +17775,8 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -13498,22 +17859,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13525,9 +17886,9 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_GL",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -13535,7 +17896,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -13609,22 +17970,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13635,10 +17996,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -13646,7 +18007,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -13720,22 +18081,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13749,7 +18110,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -13757,9 +18118,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -13831,22 +18192,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13860,7 +18221,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -13868,10 +18229,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -13942,22 +18303,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -13966,22 +18327,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -14053,22 +18414,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14080,9 +18441,9 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -14090,9 +18451,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -14164,22 +18525,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14190,9 +18551,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_Canteen",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -14275,22 +18636,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14301,7 +18662,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -14315,7 +18676,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -14386,22 +18747,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14410,14 +18771,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -14497,22 +18858,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14524,7 +18885,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -14535,8 +18896,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -14608,22 +18969,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14635,8 +18996,8 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -14646,8 +19007,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -14719,22 +19080,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14746,9 +19107,9 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_GL",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -14756,9 +19117,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -14830,22 +19191,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14858,8 +19219,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -14867,7 +19228,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -14941,22 +19302,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -14969,8 +19330,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -14978,10 +19339,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -15052,22 +19413,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -15076,20 +19437,20 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_Knife",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -15163,22 +19524,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -15191,7 +19552,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -15201,9 +19562,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -15274,22 +19635,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -15298,22 +19659,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -15385,22 +19746,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -15411,8 +19772,8 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
+//			"AP_Canteen",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -15496,20 +19857,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -15607,20 +19968,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -15647,7 +20008,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -15718,20 +20079,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -15742,14 +20103,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -15829,20 +20190,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -15855,7 +20216,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -15940,20 +20301,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -15967,7 +20328,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -16051,20 +20412,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16079,7 +20440,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -16162,20 +20523,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16200,8 +20561,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -16273,20 +20634,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16302,7 +20663,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -16310,7 +20671,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -16384,20 +20745,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16410,9 +20771,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -16495,20 +20856,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16521,9 +20882,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_Canteen",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -16606,20 +20967,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16632,10 +20993,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -16643,7 +21004,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -16717,20 +21078,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16743,10 +21104,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Canteen",
+//			"AP_GL",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -16754,7 +21115,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -16828,20 +21189,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16854,9 +21215,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -16868,7 +21229,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -16939,20 +21300,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -16963,14 +21324,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -17050,20 +21411,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17076,10 +21437,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -17087,10 +21448,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -17161,20 +21522,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17185,20 +21546,20 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_Knife",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -17272,20 +21633,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17298,10 +21659,10 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -17309,7 +21670,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -17383,20 +21744,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17409,7 +21770,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -17423,7 +21784,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -17494,20 +21855,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17518,14 +21879,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -17605,20 +21966,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17632,9 +21993,9 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -17642,7 +22003,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -17716,20 +22077,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17743,7 +22104,7 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -17754,8 +22115,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -17827,20 +22188,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17855,7 +22216,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -17865,8 +22226,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -17938,20 +22299,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -17965,8 +22326,8 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -17976,8 +22337,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -18049,20 +22410,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18076,9 +22437,9 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_GL",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -18086,9 +22447,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -18160,20 +22521,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18188,8 +22549,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -18197,9 +22558,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -18271,20 +22632,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18299,8 +22660,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -18308,10 +22669,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -18382,20 +22743,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18406,22 +22767,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_Knife",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -18493,20 +22854,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18522,7 +22883,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -18530,9 +22891,9 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -18604,20 +22965,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18633,7 +22994,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -18641,10 +23002,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -18715,20 +23076,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18739,22 +23100,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Thigh",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -18826,20 +23187,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18853,8 +23214,8 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
+//			"AP_GL",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -18937,20 +23298,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -18964,9 +23325,9 @@ class cfgWeapons
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
-        //				"AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_GL",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -18974,7 +23335,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -19048,20 +23409,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19076,8 +23437,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -19085,7 +23446,7 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -19159,20 +23520,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19187,8 +23548,8 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_Knife",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -19196,10 +23557,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -19270,20 +23631,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19294,20 +23655,20 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_Knife",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -19381,20 +23742,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19409,7 +23770,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -19421,7 +23782,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -19492,20 +23853,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19516,14 +23877,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -19603,20 +23964,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19632,7 +23993,7 @@ class cfgWeapons
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
+//			"AP_MGThigh",
         "AP_AR",
         "AP_Pack",
         "AP_Pistol",
@@ -19640,10 +24001,10 @@ class cfgWeapons
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -19714,20 +24075,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19738,20 +24099,20 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
-        //				"AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_MGThigh",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
-        //				"AP_Thigh",
+//			"AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
         "APO_AR",
@@ -19825,20 +24186,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19853,7 +24214,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -19863,9 +24224,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -19936,20 +24297,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -19960,22 +24321,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -20047,20 +24408,20 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
-        //				"AS_LargeLeft",
-        //				"AS_LargeRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
+//			"AS_LargeLeft",
+//			"AS_LargeRight",
         "AS_MediumLeft",
         "AS_MediumRight",
         "AS_ODSTCQBLeft",
@@ -20073,8 +24434,8 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
-        //				"AP_GL",
+//			"AP_Canteen",
+//			"AP_GL",
         "AP_Knife",
         "AP_MGThigh",
         "AP_AR",
@@ -20144,14 +24505,14 @@ class cfgWeapons
     };
   };
 
-  class STS_BLK_Corpsman_Light_1: STS_BLK_Basic_1
+  class STS_BLK_Corpsman_Light_1: STS_BLK_basic_1
   {
     displayName="[Sabertooth] M52A WDL Corpsman 1 Light";
     hiddenSelectionsTextures[] =
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_M_BLK_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_M_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
       "optre_unsc_units\army\data\ghillie_desert_co.paa",
       "optre_unsc_units\army\data\odst_armor_co.paa"
     };
@@ -20166,18 +24527,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20188,8 +24549,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -20277,18 +24638,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20299,8 +24660,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -20317,7 +24678,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -20388,18 +24749,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20410,16 +24771,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -20499,18 +24860,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20521,11 +24882,11 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -20610,18 +24971,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20632,13 +24993,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -20721,18 +25082,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20743,8 +25104,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -20759,8 +25120,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -20832,18 +25193,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20854,13 +25215,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -20943,18 +25304,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -20965,13 +25326,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -20983,7 +25344,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -21054,18 +25415,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21076,16 +25437,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -21165,18 +25526,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21187,11 +25548,11 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -21205,7 +25566,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -21276,18 +25637,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21298,16 +25659,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -21387,18 +25748,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21409,13 +25770,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -21425,8 +25786,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -21498,18 +25859,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21520,13 +25881,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -21536,9 +25897,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -21609,18 +25970,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21631,24 +25992,24 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -21720,18 +26081,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21742,8 +26103,8 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
@@ -21758,9 +26119,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -21831,18 +26192,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21853,24 +26214,24 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -21942,18 +26303,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -21964,13 +26325,13 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
         "AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -21982,7 +26343,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -22053,18 +26414,18 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
         "A_KneesMarLeft",
         "A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
         "AS_MediumLeft",
@@ -22075,16 +26436,16 @@ class cfgWeapons
         "AS_ODSTRight",
         "AS_ODSTSniperLeft",
         "AS_ODSTSniperRight",
-        //				"AS_SmallLeft",
-        //				"AS_SmallRight",
-        //				"AP_AR",
+//			"AS_SmallLeft",
+//			"AS_SmallRight",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -22164,22 +26525,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22275,22 +26636,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22301,7 +26662,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -22386,22 +26747,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22412,9 +26773,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -22497,22 +26858,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22523,9 +26884,9 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -22537,7 +26898,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -22608,22 +26969,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22632,14 +26993,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -22719,22 +27080,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22745,7 +27106,7 @@ class cfgWeapons
         "AS_SmallRight",
         "AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
@@ -22759,7 +27120,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -22830,22 +27191,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22854,14 +27215,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
-        //				"AP_Canteen",
+//			"AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -22941,22 +27302,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -22979,8 +27340,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -23052,22 +27413,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23080,7 +27441,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -23090,8 +27451,8 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -23163,22 +27524,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23191,7 +27552,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -23201,9 +27562,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -23274,22 +27635,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23298,22 +27659,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -23385,22 +27746,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23423,9 +27784,9 @@ class cfgWeapons
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
-        //				"APO_AR",
+//			"AP_Frag",
+//			"AP_Smoke",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -23496,22 +27857,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23520,22 +27881,22 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
         "AP_SMG",
         "AP_Sniper",
         "AP_Thigh",
-        //				"AP_Frag",
-        //				"AP_Smoke",
+//			"AP_Frag",
+//			"AP_Smoke",
         "APO_AR",
         "APO_BR",
         "APO_Knife",
@@ -23607,22 +27968,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23635,7 +27996,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -23718,22 +28079,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23746,7 +28107,7 @@ class cfgWeapons
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
         "AP_AR",
         "AP_Pack",
@@ -23758,7 +28119,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -23829,22 +28190,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23853,14 +28214,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
-        //				"AP_Knife",
+//			"AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -23940,22 +28301,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -23980,7 +28341,7 @@ class cfgWeapons
         "AP_Thigh",
         "AP_Frag",
         "AP_Smoke",
-        //				"APO_AR",
+//			"APO_AR",
         "APO_BR",
         "APO_Knife",
         "APO_SMG",
@@ -24051,22 +28412,22 @@ class cfgWeapons
         "camo4",
         "camo5",
         "A_Ghillie",
-        //				"A_KneesLeft",
-        //				"A_KneesRight",
-        //				"A_KneesMarLeft",
-        //				"A_KneesMarRight",
+//			"A_KneesLeft",
+//			"A_KneesRight",
+//			"A_KneesMarLeft",
+//			"A_KneesMarRight",
         "A_ODST",
-        //				"A_ShinArmorLeft",
-        //				"A_ShinArmorRight",
+//			"A_ShinArmorLeft",
+//			"A_ShinArmorRight",
         "A_TacPad",
-        //				"A_ThighArmorLeft",
-        //				"A_ThighArmorRight",
-        //				"AS_BaseLeft",
-        //				"AS_BaseRight",
+//			"A_ThighArmorLeft",
+//			"A_ThighArmorRight",
+//			"AS_BaseLeft",
+//			"AS_BaseRight",
         "AS_LargeLeft",
         "AS_LargeRight",
-        //				"AS_MediumLeft",
-        //				"AS_MediumRight",
+//			"AS_MediumLeft",
+//			"AS_MediumRight",
         "AS_ODSTCQBLeft",
         "AS_ODSTCQBRight",
         "AS_ODSTLeft",
@@ -24075,14 +28436,14 @@ class cfgWeapons
         "AS_ODSTSniperRight",
         "AS_SmallLeft",
         "AS_SmallRight",
-        //				"AP_AR",
+//			"AP_AR",
         "AP_BR",
         "AP_Canteen",
         "AP_GL",
         "AP_Knife",
         "AP_MGThigh",
-        //				"AP_AR",
-        //				"AP_Pack",
+//			"AP_AR",
+//			"AP_Pack",
         "AP_Pistol",
         "AP_Rounds",
         "AP_SG",
@@ -24157,8 +28518,8 @@ class cfgvehicles
     scope=2;
     hiddenSelectionsTextures[]=
     {
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa",
-      "Sabertooth-Securities-Arsenal\STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa"
+      "STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa",
+      "STSArmors\Data\Textures\Uniforms\STS_BDU_black_CO.paa"
     };
   };
   class STS_BLK_Sabertooth_SlimLeg: STS_BLK_Sabertooth_soldier
