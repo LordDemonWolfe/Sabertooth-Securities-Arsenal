@@ -842,7 +842,7 @@ class cfgWeapons
 
 	class Spectre_Recon: OPTRE_UNSC_Recon_Helmet
 	{
-		displayname="R/B5 Helmet (Spectre)";
+		displayname="[Spectre Co.] R/B5 Helmet (Black)";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -852,7 +852,7 @@ class cfgWeapons
 	};
 	class Spectre_Recon_dp: OPTRE_UNSC_Recon_Helmet_dp
 	{
-		displayname="R/B5 Helmet (Spectre) [Depolariazed]";
+		displayname="[Spectre Co.] R/B5 Helmet (Black) [Depolariazed]";
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
@@ -862,7 +862,7 @@ class cfgWeapons
 	};
 	class Spectre_Recon_MED: OPTRE_UNSC_Recon_Helmet
 	{
-		displayname="R/B5 Helmet (MED)";
+		displayname="[Spectre Co.] R/B5 Helmet (MED)";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -872,12 +872,117 @@ class cfgWeapons
 	};
 	class Spectre_Recon_MED_dp: OPTRE_UNSC_Recon_Helmet_dp
 	{
-		displayname="R/B5 Helmet (MED) [Depolariazed]";
+		displayname="[Spectre Co.] R/B5 Helmet (MED) [Depolariazed]";
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
 			"SpectreArmors\data\Helmets\Recon\MED\Spectre_S1ONIR_MED_CO.paa",
 			"SpectreArmors\data\Helmets\Recon\Visors\recon_RED_visor_ca.paa"
+		};
+	};
+
+	class Spectre_Recon_RED: OPTRE_UNSC_Recon_Helmet
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (RED)";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\RED\Spectre_S1ONIR_RED_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_RED_visor_co.paa"
+		};
+	};
+	class Spectre_Recon_RED_dp: OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (RED) [Depolariazed]";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\RED\Spectre_S1ONIR_RED_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_RED_visor_ca.paa"
+		};
+	};
+
+	class Spectre_Recon_BLU: OPTRE_UNSC_Recon_Helmet
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Blue)";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\BLU\Spectre_S1ONIR_BLU_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_BLU_visor_co.paa"
+		};
+	};
+	class Spectre_Recon_BLU_dp: OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Blue) [Depolariazed]";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\BLU\Spectre_S1ONIR_MED_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_BLU_visor_ca.paa"
+		};
+	};
+
+	class Spectre_Recon_GRN: OPTRE_UNSC_Recon_Helmet
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Green)";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\GRN\Spectre_S1ONIR_GRN_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_GRN_visor_co.paa"
+		};
+	};
+	class Spectre_Recon_GRN_dp: OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (GRN) [Depolariazed]";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\GRN\Spectre_S1ONIR_GRN_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_GRN_visor_ca.paa"
+		};
+	};
+
+	class Spectre_Recon_PNK: OPTRE_UNSC_Recon_Helmet
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Pink)";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\PNK\Spectre_S1ONIR_PNK_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_PNK_visor_co.paa"
+		};
+	};
+	class Spectre_Recon_PNK_dp: OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Pink) [Depolariazed]";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\PNK\Spectre_S1ONIR_PNK_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_PNK_visor_ca.paa"
+		};
+	};
+
+	class Spectre_Recon_YLW: OPTRE_UNSC_Recon_Helmet
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Yellow)";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\YLW\Spectre_S1ONIR_YLW_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_YLW_visor_co.paa"
+		};
+	};
+	class Spectre_Recon_YLW_dp: OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayname="[Spectre Co.] R/B5 Helmet (Yellow) [Depolariazed]";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\Recon\YLW\Spectre_S1ONIR_YLW_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\Visors\recon_YLW_visor_ca.paa"
 		};
 	};
 
