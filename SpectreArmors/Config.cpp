@@ -918,7 +918,7 @@ class cfgWeapons
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
-			"SpectreArmors\data\Helmets\Recon\BLU\Spectre_S1ONIR_MED_CO.paa",
+			"SpectreArmors\data\Helmets\Recon\BLU\Spectre_S1ONIR_BLU_CO.paa",
 			"SpectreArmors\data\Helmets\Recon\Visors\recon_BLU_visor_ca.paa"
 		};
 	};
