@@ -499,9 +499,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -985,9 +985,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1028,9 +1028,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1071,9 +1071,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1115,9 +1115,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1158,9 +1158,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1201,9 +1201,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1336,9 +1336,9 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{"OPTRE_MA5C","OPTRE_MA5C","OPTRE_MA5C"};
-        class TransportItems{"OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam","OPTRE_Biofoam"};
-        class TransportMagazines{"OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag","OPTRE_32Rnd_762x51_Mag"};
+				class TransportWeapons{};
+        class TransportItems{};
+        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
