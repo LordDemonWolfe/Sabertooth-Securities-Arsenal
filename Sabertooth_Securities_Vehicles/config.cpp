@@ -499,9 +499,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -985,9 +982,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1028,9 +1022,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1071,9 +1062,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1115,9 +1103,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1158,9 +1143,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1201,9 +1183,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
@@ -1336,9 +1315,6 @@ class cfgPatches
 				tf_hasLRradio=1;
 				tf_isolatedAmount=0.40000001;
 				tf_range=40000;
-				class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
 				class TextureSources
 				{
 					class tex_nml
