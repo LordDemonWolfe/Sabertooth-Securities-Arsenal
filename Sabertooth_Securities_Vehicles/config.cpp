@@ -22,7 +22,11 @@ class cfgPatches
 			"Sabertooth_M808B2",
 			"Sabertooth_Hornet",
 			"Sabertooth_Tarantula",
-			"Sabertooth_Pelican"
+			"Sabertooth_Pelican",
+			"Sabertooth_M808B_105",
+			"Sabertooth_M808B_90",
+			"Sabertooth_Bison_MGS",
+			"Sabertooth_Bison_IFV"
 		};
 		magazines[]=
 		{
@@ -250,6 +254,236 @@ class cfgPatches
 			class VES_AV14_AGM;
 			class B_T_APC_Tracked_01_AA_F;
 			class VES_D77HTCI_A;
+			class OPTRE_M413_MGS_UNSC;
+			class OPTRE_M412_IFV_UNSC;
+
+			class Sabertooth_Bison_MGS: OPTRE_M413_MGS_UNSC
+			{
+				dlc="Sabertooth Securities";
+				author="Thomas & Vespade";
+				displayName="[Sabertooth] M413 Bison MGS";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_APC";
+				crew="Sabertooth_Crewman";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				armor=700;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
+				hiddenSelections[]=
+				{
+					"Camo1",
+					"Camo2",
+					"Camo3",
+					"Camo4",
+					"Camo5",
+					"Camo6",
+					"Camo7"
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"OPTRE_Vehicles\Bison\data\Bison_Body_blk_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_Misc_blk_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_WheelsCannon_blk_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_Seats_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_Interior_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_MFCDScreens_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_90mm_blk_CO.paa"
+				};
+			};
+			class Sabertooth_Bison_IFV: OPTRE_M412_IFV_UNSC
+			{
+				dlc="Sabertooth Securities";
+				author="Thomas & Vespade";
+				displayName="[Sabertooth] M412 Bison IFV";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_APC";
+				crew="Sabertooth_Crewman";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				armor=700;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
+				class Turrets: Turrets
+				{
+					class MainTurret: MainTurret
+					{
+						weapons[]=
+						{
+							"STS_230",
+							"STS_247T",
+							"OPTRE_missiles_C2GMLS"
+						};
+						magazines[]=
+						{
+							"OPTRE_100Rnd_50mm_HE",
+							"OPTRE_100Rnd_50mm_HE",
+							"OPTRE_100Rnd_50mm_HE",
+							"OPTRE_100Rnd_50mm_APFSDS",
+							"OPTRE_100Rnd_50mm_APFSDS",
+							"OPTRE_100Rnd_50mm_APFSDS",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_200Rnd_95x40_Box_Tracer",
+							"OPTRE_2Rnd_C2GMLS_missiles"
+						};
+					};
+				};
+				hiddenSelections[]=
+				{
+					"Camo1",
+					"Camo2",
+					"Camo3",
+					"Camo4",
+					"Camo5",
+					"Camo6",
+					"Camo7"
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"OPTRE_Vehicles\Bison\data\Bison_Body_blk_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_Misc_blk_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_WheelsCannon_blk_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_Seats_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_Interior_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_MFCDScreens_CO.paa",
+					"OPTRE_Vehicles\Bison\data\Bison_90mm_blk_CO.paa"
+				};
+			};
+			class Sabertooth_M808B_90: VES_M808B_MBT
+			{
+				dlc="Sabertooth Securities";
+				author="Thomas & Vespade";
+				displayName="[Sabertooth] M808B Scorpion (90mm)";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Tank";
+				crew="Sabertooth_Crewman";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				armor=800;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas & A2S";
+						textures[]=
+						{
+							"OPTRE_Vehicles\Scorpion\data\body_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\decals_ca.paa",
+							"OPTRE_Vehicles\Scorpion\data\interior_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\miscparts_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\trackhousing_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\turret_blk_co.paa"
+						};
+					};
+				};
+				class Turrets: Turrets
+				{
+					class MainTurret: MainTurret
+					{
+						weapons[]=
+						{
+							"STS_90mm_M556",
+							"OPTRE_M247T_Coax"
+						};
+						magazines[]=
+						{
+							"OPTRE_30Rnd_90mm_APBC",
+							"OPTRE_30Rnd_90mm_SAPHE",
+							"OPTRE_10Rnd_90mm_S1",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer"
+						};
+					};
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"OPTRE_Vehicles\Scorpion\data\body_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\decals_ca.paa",
+					"OPTRE_Vehicles\Scorpion\data\interior_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\miscparts_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\trackhousing_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\turret_blk_co.paa"
+				};
+			};
+			class Sabertooth_M808B_105: VES_M808B_MBT
+			{
+				dlc="Sabertooth Securities";
+				author="Thomas & Vespade";
+				displayName="[Sabertooth] M808B Scorpion (105mm)";
+				editorCategory="Sabertooth";
+				editorSubcategory="Sabertooth_Tank";
+				crew="Sabertooth_Crewman";
+				scope=2;
+				scopeCurator=2;
+				forceInGarage=1;
+				armor=800;
+				tf_hasLRradio=1;
+				tf_isolatedAmount=0.40000001;
+				tf_range=40000;
+				class TextureSources
+				{
+					class tex_nml
+					{
+						displayName="Sabertooth";
+						author="Thomas & A2S";
+						textures[]=
+						{
+							"OPTRE_Vehicles\Scorpion\data\body_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\decals_ca.paa",
+							"OPTRE_Vehicles\Scorpion\data\interior_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\miscparts_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\trackhousing_blk_co.paa",
+							"OPTRE_Vehicles\Scorpion\data\turret_blk_co.paa"
+						};
+					};
+				};
+				class Turrets: Turrets
+				{
+					class MainTurret: MainTurret
+					{
+						weapons[]=
+						{
+							"OPTRE_105mm_M512",
+							"OPTRE_M247T_Coax"
+						};
+						magazines[]=
+						{
+							"OPTRE_60Rnd_105mm_APBC",
+							"OPTRE_60Rnd_105mm_SAPHE",
+							"OPTRE_60Rnd_105mm_HEAT",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer",
+							"OPTRE_100Rnd_762x51_Box_Tracer"
+						};
+					};
+				};
+				hiddenSelectionsTextures[]=
+				{
+					"OPTRE_Vehicles\Scorpion\data\body_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\decals_ca.paa",
+					"OPTRE_Vehicles\Scorpion\data\interior_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\miscparts_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\trackhousing_blk_co.paa",
+					"OPTRE_Vehicles\Scorpion\data\turret_blk_co.paa"
+				};
+			};
 
 			class Sabertooth_Pelican: VES_D77HTCI_A
 			{
