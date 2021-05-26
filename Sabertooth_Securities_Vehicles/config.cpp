@@ -804,15 +804,15 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 				};
 			};
 
@@ -1350,15 +1350,15 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 				};
 			};
 
@@ -1390,15 +1390,15 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 				};
 			};
 
@@ -1430,15 +1430,15 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 				};
 			};
 
@@ -1471,15 +1471,17 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Trans_lopo_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Trans_lopo_co.paa"
 				};
 			};
 
@@ -1511,15 +1513,15 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 				};
 			};
 
@@ -1551,15 +1553,17 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Trans_lopo_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa",
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co2.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Trans_lopo_co.paa"
 				};
 			};
 
@@ -1683,13 +1687,15 @@ class cfgPatches
 						author="Thomas";
 						textures[]=
 						{
-							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa"
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+							"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 						};
 					};
 				};
 				hiddenSelectionsTextures[]=
 				{
-					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_co.paa"
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Upper_co.paa",
+					"Sabertooth_Securities_Vehicles\data\Vehicles\Warthog\STS_Warthog_Under_co.paa"
 				};
 			};
 		};
