@@ -572,7 +572,82 @@ class cfgWeapons
       "STSArmors\Data\Textures\Helmets\Marine\STS_CH252_M_BLK_CO.paa"
     };
   };
+  /**Air Assualt*/
 
+  class STS_BLK_CH252AA: STS_R_ECH252
+	{
+		displayName="[Sabertooth] CH252 WLD AA";
+		model="OPTRE_UNSC_Units\Army\aa_helmet.p3d";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+			"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"V_FZ_Armor\Data\Helmets\Materials\V_CH252A.rvmat",
+			"V_FZ_Armor\Data\Helmets\Materials\V_CH252A_V.rvmat"
+		};
+
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="OPTRE_UNSC_Units\Army\aa_helmet.p3d";
+			hiddenSelectionsTextures[]=
+			{
+				"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+				"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_DEF_V_CO.paa"
+			};
+		};
+	};
+	class STS_BLK_CH252AA_dp: STS_R_ECH252_dp
+	{
+		displayName="[Sabertooth] CH252 WLD AA";
+		model="OPTRE_UNSC_Units\Army\aa_helmet_dp.p3d";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+			"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"V_FZ_Armor\Data\Helmets\Materials\V_CH252A.rvmat",
+			"V_FZ_Armor\Data\Helmets\Materials\V_CH252A_V.rvmat"
+		};
+
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="OPTRE_UNSC_Units\Army\aa_helmet_dp.p3d";
+			hiddenSelectionsTextures[]=
+			{
+				"STSArmors\Data\Textures\Helmets\AA\STS_CH252A_BLK_CO.paa",
+				"STSArmors\Data\Textures\Helmets\AA\Visors\STS_CH252A_CLR_V_CA.paa"
+			};
+		};
+	};
+
+  /**Recon*/
+  class STS_S1ONIR_BLK: OPTRE_UNSC_Recon_Helmet
+	{
+		displayname="R/B5 Helmet (Sabertooth)";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"STSArmors\Data\Textures\Helmets\Recon\STS_S1ONIR_BLK_CO.paa",
+			"optre_unsc_units\army\data\recon_visor_co.paa"
+		};
+	};
+	class STS_S1ONIR_BLK_dp: OPTRE_UNSC_Recon_Helmet_dp
+	{
+		displayname="R/B5 Helmet (Sabertooth) [Depolariazed]";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"STSArmors\Data\Textures\Helmets\Reconx\STS_S1ONIR_BLK_CO.paa";
+			"optre_unsc_units\army\data\recon_visor_ca.paa"
+		};
+	};
   /** Vest Section */
   /** ODST Armor Section */
   class OPTRE_UNSC_M52D_Armor;
@@ -5187,6 +5262,131 @@ class cfgWeapons
           hitpointName="HitBody";
           armor=45;
           passThrough=0.1;
+        };
+      };
+    };
+  };
+
+  class STS_M52D_Armor_40: STS_M52D_Armor_1
+    {
+    author="Krevan";
+    displayName="[Sabertooth] M52D Body Armor (Corpsman)";
+    hiddenSelectionsTextures[]=
+    {
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_V_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_R_BLK_CO.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52_L_BLK_CO.paa",
+      "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+      "STSArmors\Data\Textures\Armors\STS\BLK\STS_M52D_M_BLK_CO.paa"
+    };
+
+    class ItemInfo: ItemInfo
+    {
+      uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+      hiddenSelections[] =
+      {
+        "camo",
+        "camo2",
+        "camo3",
+        "camo4",
+        "camo5",
+        "A_Ghillie",
+//	    "A_KneesLeft",
+//	    "A_KneesRight",
+//		  "A_KneesMarLeft",
+//	    "A_KneesMarRight",
+//      "A_ODST",
+//	    "A_ShinArmorLeft",
+//	    "A_ShinArmorRight",
+        "A_TacPad",
+//	    "A_ThighArmorLeft",
+//	    "A_ThighArmorRight",
+//      "AS_BaseLeft",
+//      "AS_BaseRight",
+        "AS_LargeLeft",
+        "AS_LargeRight",
+  	    "AS_MediumLeft",
+        "AS_MediumRight",
+        "AS_ODSTCQBLeft",
+        "AS_ODSTCQBRight",
+//      "AS_ODSTLeft",
+//      "AS_ODSTRight",
+        "AS_ODSTSniperLeft",
+        "AS_ODSTSniperRight",
+        "AS_SmallLeft",
+        "AS_SmallRight",
+  		  "AP_AR",
+        "AP_BR",
+        "AP_Canteen",
+        "AP_GL",
+        "AP_Knife",
+//      "AP_MGThigh",
+        "AP_AR",
+  	    "AP_Pack",
+        "AP_Pistol",
+        "AP_Rounds",
+        "AP_SG",
+        "AP_SMG",
+        "AP_Sniper",
+//      "AP_Thigh",
+        "AP_Frag",
+        "AP_Smoke",
+//      "APO_AR",
+        "APO_BR",
+        "APO_Knife",
+        "APO_SMG",
+        "APO_Sniper",
+        "CustomKit_Scorch"
+      };
+     class HitpointsProtectionInfo
+       {
+         class Neck
+         {
+         hitpointName="HitNeck";
+         armor=45;
+         passThrough=0.1;
+         };
+         class Legs
+         {
+           hitpointName="HitLegs";
+           armor=45;
+           passThrough=0.1;
+         };
+         class Arms
+         {
+          hitpointName="HitArms";
+          armor=45;
+          passThrough=0.1;
+         };
+         class Hands
+         {
+          hitpointName="HitHands";
+          armor=45;
+          passThrough=0.1;
+         };
+         class Chest
+         {
+           hitpointName="HitChest";
+           armor=45;
+           passThrough=0.1;
+         };
+         class Diaphragm
+         {
+           hitpointName="HitDiaphragm";
+           armor=45;
+           passThrough=0.1;
+         };
+         class Abdomen
+         {
+          hitpointName="HitAbdomen";
+          armor=45;
+          passThrough=0.1;
+         };
+         class Body
+         {
+          hitpointName="HitBody";
+         armor=45;
+         passThrough=0.1;
         };
       };
     };
