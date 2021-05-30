@@ -623,7 +623,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252_R_GRN_CO.paa",
-			"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_YLW_CA.paa"
+			"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_GRN_CA.paa"
 		};
 
 		class ItemInfo: ItemInfo
@@ -646,7 +646,7 @@ class cfgWeapons
 		};
 
 		class ItemInfo: ItemInfo
-		{
+		{	
 			hiddenSelectionsTextures[] = 
 			{
 				"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252_R_GRN_CO.paa",
