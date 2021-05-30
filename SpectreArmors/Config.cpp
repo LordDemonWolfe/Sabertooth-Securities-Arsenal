@@ -616,6 +616,44 @@ class cfgWeapons
 			};
 		};
 	};
+	class Spectre_R_ECH252G: Spectre_R_ECH252
+	{
+		displayName="[Spectre Co.] CH252 BLK Vac (green)";
+		scope=2;
+		hiddenSelectionsTextures[] = 
+		{
+			"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252_R_GRN_CO.paa",
+			"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_YLW_CA.paa"
+		};
+
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = 
+			{
+				"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252_R_GRN_CO.paa",
+				"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_GRN_CA.paa"
+			};
+		};	
+	};
+	class Spectre_R_ECH252G_dp: Spectre_R_ECH252_dp
+	{
+		displayName="[Spectre Co.] CH252 BLK Vac (green)";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252_R_GRN_CO.paa",
+			"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_ca.paa"
+		};
+
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = 
+			{
+				"SpectreArmors\data\Helmets\CH252\GRN\Spectre_CH252_R_GRN_CO.paa",
+				"SpectreArmors\data\Helmets\CH252\Visors\CHVISR_ca.paa"
+			};
+		};
+	};
 	class OPTRE_UNSC_CH252_Helmet2_WDL;
 	class Spectre_R_CH252: OPTRE_UNSC_CH252_Helmet2_WDL
 	{
